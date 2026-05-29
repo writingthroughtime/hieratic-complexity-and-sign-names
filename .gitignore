@@ -15,7 +15,7 @@ aku-pal/html/
 
 # macOS metadata
 .DS_Store
-Icon
+Icon?
 
 # Python virtual environments
 env/
