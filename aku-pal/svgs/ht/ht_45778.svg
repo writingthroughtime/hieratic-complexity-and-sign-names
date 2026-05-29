@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     width="9.73073836mm"
+     height="24.98753331mm"
+     viewBox="0.00000000 0.00000000 27.58312925 70.83070504">
+
+<g transform="scale(5.63365949)">   <defs>
+      <style type="text/css"><![CDATA[
+      .b {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .25px;
+      }
+    ]]></style>
+   </defs>
+   <path class="b"
+         d="M.42521,9.51978c.22446.91694.58625,1.85464,1.3219,2.44623s1.93194.69204,2.57152-.00233c.65299-.70892.46512-1.82024.26099-2.76231C3.93801,6.24018,3.52645,3.2126,3.42253.18328-.41111-.63816-.07852,7.46198.42521,9.51978Z"/>
+
+</g>
+</svg>

@@ -3,10 +3,9 @@
 MATLAB code and data for the study of iconicity, information content, and
 complexity change across the history of Egyptian hieratic script.
 
-This repository accompanies the paper:
+<!-- This repository accompanies the paper:
 
-> Casey, C. (in press). Sign names and the information-theoretic basis of
-> writing system simplification. *Hieroglyphs*.
+> Casey, C. (in press). "What Did Egyptian Scribes Call the Signs of Their Script?" -->
 
 ---
 

@@ -7,6 +7,7 @@ set(groot, 'defaultAxesFontName', 'Minion Pro Hiero');
 saveFigures = false;
 figurePosition = [1 1 17 10]*2;
 
+disp('Loading sign list data...');
 load('sign_list_plus_corpus_data.mat', 'sign_list');
 sign_list = sign_list(~isnan(sign_list.frequency), :);
 
@@ -145,7 +146,7 @@ fs = fs(~isnan(fs));
 
 %% Information Content vs. Change in Complexity scatter plot
 
-for showLabels = [true false]
+for showLabels = [false true]
 
 	figure(201); clf;
 
@@ -192,6 +193,79 @@ for showLabels = [true false]
 	end
 end
 
+%% Look at sign trajectories
+
+n = height(filtered_sign_list);
+mdc = unique(filtered_sign_list.mdc);
+m = height(mdc);
+
+fs = zeros(m,1);
+ms = zeros(m,1);
+shapes = cell(m,1);
+
+
+for i = 1:m
+	
+	selectedSign = mdc(i);
+	oneSign = filtered_sign_list(strcmp(filtered_sign_list.mdc, selectedSign), :);
+
+	if height(oneSign) < 20
+		continue;
+	end
+	
+	% % Use latest available frequency values (Greco-Roman in this case)
+	% oneSignGR = oneSign(strcmp(oneSign.epoche, "Griechisch-römische Zeit"),:);
+	% fs(i) = mean(oneSignGR.in_epoch_frequency);
+
+	X = [ones(height(oneSign),1), oneSign.date];
+	b = X \ oneSign.complexity;
+	ms(i) = b(2);
+end
+
+[ms, iSort] = sort(ms);
+mdc = mdc(iSort);
+
+% Select a subset of signs to visualize
+signsToPlot = 1:2;							% 10 most simplified
+signsToPlot = length(mdc)+(-10:0);			% 10 most complexified
+signsToPlot = find(ms<0)';					% All simplified
+signsToPlot = find(ms>0)';					% All complexified
+signsToPlot = find(strcmp(mdc, "D36"))';	% Specific MdC
+
+for i = signsToPlot
+	figure(1000+i); clf;
+
+	if saveFigures
+		set(gcf, 'Units', 'centimeters');
+		set(gcf, 'Position', figurePosition);   % [x y width height]
+	end
+
+
+	% KLUDGE: Reduce number of shapes in plot for presentation
+	% (Without this the resulting figures are too complex to paste into Keynote)
+	oneSign = filtered_sign_list(strcmp(filtered_sign_list.mdc, mdc(i)), :);
+	if height(oneSign) > 525
+		oneSign = oneSign(randperm(height(oneSign), 550), :);
+		[~, mdl] = plot_sign_complexity(oneSign, mdc(i));
+		title(sprintf('%s | slope = %.4f', mdc(i), ms(i)), ...
+			'FontName', 'Minion Pro Hiero');
+	else
+		[~, mdl] = plot_sign_complexity(filtered_sign_list, mdc(i));
+	end
+
+
+	titleString = sprintf('Sign complexity for slope %0.4f, sign %s', ms(i), mdc(i)); 
+	
+	if saveFigures
+		set(gcf, 'Units', 'centimeters');
+		set(gcf, 'Position', figurePosition);   % [x y width height]
+		exportgraphics(gcf, sprintf('./figures/signs/%s.svg', titleString), ...
+		'ContentType','vector');
+	end
+
+	% JSesh copy-paste
+	disp(sprintf('|%i-%s-+lslope=%.2f, p=%.4f+s-!', i, mdc(i), ms(i), mdl.ModelFitVsNullModel.Pvalue));
+end
 
 %% Close all figure windows after exporting
 if saveFigures
