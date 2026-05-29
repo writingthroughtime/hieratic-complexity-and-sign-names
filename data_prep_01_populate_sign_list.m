@@ -42,8 +42,8 @@ sign_list.ht_local_path = [];
 
 %% Use image files to collect sign data
 
-filepath = './aku-pal-dump/tiffs/ht/';
-filepath_eps = './aku-pal-dump/eps/ht/';
+filepath = './aku-pal/tiffs/ht/';
+filepath_eps = './aku-pal/eps/ht/';
 
 % Preallocate new columns
 n = height(sign_list);

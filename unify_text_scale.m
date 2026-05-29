@@ -7,7 +7,7 @@ load('sign_list.mat', 'sign_list');
 
 %% Paths
 
-srcDir = './aku-pal-dump/svgs/ht/';
+srcDir = './aku-pal/svgs/ht/';
 dstDir = './svgs/ht/';
 
 if ~exist(dstDir, 'dir')

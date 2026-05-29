@@ -39,20 +39,20 @@ are third-party utilities. Include them on your MATLAB path before running.
 
 ## Data
 
-The `aku-pal-dump/` directory contains data scraped from the AKU-PAL database:
+The `aku-pal/` directory contains data scraped from the AKU-PAL database:
 
 | Path | Description |
 |------|-------------|
-| `aku-pal-dump/tiffs/ht/` | TIFF images of individual hieratic sign instances |
-| `aku-pal-dump/svgs/ht/` | SVG outlines of each sign |
-| `aku-pal-dump/eps/ht/` | EPS files used for algorithmic complexity measurement |
-| `aku-pal-dump/records.jsonl` | Full structured scrape records (one JSON object per line) |
-| `aku-pal-dump/sign_core.csv` | Core sign metadata |
-| `aku-pal-dump/sign-grapheme-mdc.csv` | Sign–grapheme–MdC mapping |
+| `aku-pal/tiffs/ht/` | TIFF images of individual hieratic sign instances |
+| `aku-pal/svgs/ht/` | SVG outlines of each sign |
+| `aku-pal/eps/ht/` | EPS files used for algorithmic complexity measurement |
+| `aku-pal/records.jsonl` | Full structured scrape records (one JSON object per line) |
+| `aku-pal/sign_core.csv` | Core sign metadata |
+| `aku-pal/sign-grapheme-mdc.csv` | Sign–grapheme–MdC mapping |
 
 The image directories (`tiffs/`, `svgs/`, `eps/`) are excluded from version
 control due to size (~32,000 files each). To regenerate them, run the AKU-PAL
-scraper (see `aku-pal-dump/svg_to_tiff.py` and the companion Python project).
+scraper (see `aku-pal/svg_to_tiff.py` and the companion Python project).
 
 The TLA corpus data (`corpus/corpus_frequency_mdc.json`) and hieratic sign
 list (`sign_list.csv`, `dates.csv`) are included in the repository.
@@ -69,7 +69,7 @@ Run the scripts in order from the `Hieratic/` directory:
 run('data_prep_01_populate_sign_list.m')
 ```
 
-Reads `sign_list.csv`, loads TIFF images from `aku-pal-dump/tiffs/ht/`,
+Reads `sign_list.csv`, loads TIFF images from `aku-pal/tiffs/ht/`,
 computes complexity metrics (skeleton pixel count, perimetric complexity,
 algorithmic complexity), and saves `sign_list.mat`.
 
@@ -131,12 +131,27 @@ run('complexity_movement.m')
 
 ## Citation
 
-If you use this code or data, please cite the paper above and the AKU-PAL
-database:
+If you use this code or data, please cite the paper above and the following
+data sources.
+
+**AKU-PAL sign images:**
 
 > Widmaier, K. & Verhoeven, U. AKU-PAL: Automatische Klassifikation und
 > Umschrift — Paläographischer Atlas des Altägyptischen. Mainz: Johannes
-> Gutenberg-Universität.
+> Gutenberg-Universität. https://www.hieratologie.de/aku-pal/
+
+**TLA corpus frequency data:**
+
+> Glyphs in the Thesaurus Linguae Aegyptiae: Transcriptions from Hieratic
+> Texts, Corpus issue 20 (2025), compiled by Daniel A. Werning, 26 Apr 2026,
+> based on data from the Thesaurus Linguae Aegyptiae, ed. by Tonio Sebastian
+> Richter & Daniel A. Werning on behalf of the
+> Berlin-Brandenburgische Akademie der Wissenschaften and Hans-Werner
+> Fischer-Elfert & Peter Dils on behalf of the Sächsische Akademie der
+> Wissenschaften zu Leipzig.
+>
+> Corresponding data: Thesaurus Linguae Aegyptiae: Datasets.
+> https://github.com/thesaurus-linguae-aegyptiae/thesaurus-linguae-aegyptiae-datasets
 
 ---
 
@@ -144,4 +159,6 @@ database:
 
 Code: MIT License. See `LICENSE` for details.  
 AKU-PAL data: subject to the terms of the AKU-PAL database. Consult
-https://www.hieratologie.de/aku-pal/ for usage rights.
+https://www.hieratologie.de/aku-pal/ for usage rights.  
+TLA corpus data: subject to the terms of the Thesaurus Linguae Aegyptiae.
+Consult https://thesaurus-linguae-aegyptiae.de/ for usage rights.
