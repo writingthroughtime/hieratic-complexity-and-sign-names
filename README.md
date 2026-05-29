@@ -13,7 +13,7 @@ complexity change across the history of Egyptian hieratic script.
 
 The study tests whether the rate at which individual hieratic signs simplify
 over time is predicted by their information content (i.e., how rare the sign
-is in the corpus). Complexity is measured as **skeleton pixel count** — the
+is in the corpus). Complexity is measured as **skeleton pixel count**—the
 number of pixels in the morphological skeleton of each sign image, which
 approximates the length of the pen path required to draw the sign.
 
@@ -30,31 +30,6 @@ attestations. Corpus frequency data come from the
 - **Image Processing Toolbox** (for `bwmorph`, `bwperim`, `im2double`)
 - **Statistics and Machine Learning Toolbox** (for `fitlm`, `fitlme`, `corr`)
 - **Signal Processing Toolbox** (for Gaussian smoothing in `smooth_shape_components`)
-
-The `violin` and `kdeplot` functions called in `change_in_complexity_tests.m`
-are third-party utilities. Include them on your MATLAB path before running.
-
----
-
-## Data
-
-The `aku-pal/` directory contains data scraped from the AKU-PAL database:
-
-| Path | Description |
-|------|-------------|
-| `aku-pal/tiffs/ht/` | TIFF images of individual hieratic sign instances |
-| `aku-pal/svgs/ht/` | SVG outlines of each sign |
-| `aku-pal/eps/ht/` | EPS files used for algorithmic complexity measurement |
-| `aku-pal/records.jsonl` | Full structured scrape records (one JSON object per line) |
-| `aku-pal/sign_core.csv` | Core sign metadata |
-| `aku-pal/sign-grapheme-mdc.csv` | Sign–grapheme–MdC mapping |
-
-The image directories (`tiffs/`, `svgs/`, `eps/`) are excluded from version
-control due to size (~32,000 files each). To regenerate them, run the AKU-PAL
-scraper (see `aku-pal/svg_to_tiff.py` and the companion Python project).
-
-The TLA corpus data (`corpus/corpus_frequency_mdc.json`) and hieratic sign
-list (`sign_list.csv`, `dates.csv`) are included in the repository.
 
 ---
 
@@ -99,11 +74,27 @@ Produces the main paper figures. Set `saveFigures = true` to export SVGs to
 `./figures/`. The script reports correlation coefficients and p-values to the
 console.
 
-For the mixed-effects model (Table 1 in the paper):
+---
 
-```matlab
-run('complexity_movement.m')
-```
+## Data
+
+The `aku-pal/` directory contains data scraped from the AKU-PAL database:
+
+| Path | Description |
+|------|-------------|
+| `aku-pal/tiffs/ht/` | TIFF images of individual hieratic sign instances |
+| `aku-pal/svgs/ht/` | SVG outlines of each sign |
+| `aku-pal/eps/ht/` | EPS files used for algorithmic complexity measurement |
+| `aku-pal/records.jsonl` | Full structured scrape records (one JSON object per line) |
+| `aku-pal/sign_core.csv` | Core sign metadata |
+| `aku-pal/sign-grapheme-mdc.csv` | Sign–grapheme–MdC mapping |
+
+The image directories (`tiffs/`, `svgs/`, `eps/`) are excluded from version
+control due to size (~32,000 files each). To regenerate them, run the AKU-PAL
+scraper (see `aku-pal/svg_to_tiff.py` and the companion Python project).
+
+The TLA corpus data (`corpus/corpus_frequency_mdc.json`) and hieratic sign
+list (`sign_list.csv`, `dates.csv`) are included in the repository.
 
 ---
 
