@@ -1,0 +1,1 @@
+python3 tla_keys_to_mdc.py TLA_glyphs-v20_2025-Hieratic.json mdc_to_unicode_hex.txt -o corpus_frequency_mdc.json  -s scripts.txt
