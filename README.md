@@ -35,7 +35,7 @@ attestations. Corpus frequency data come from the
 
 ## Running the Pipeline
 
-Run the scripts in order from the `Hieratic/` directory:
+Run the scripts in order from the root directory:
 
 ### Step 1 — Build the sign list
 
