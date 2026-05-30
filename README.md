@@ -106,7 +106,6 @@ list (`sign_list.csv`, `dates.csv`) are included in the repository.
 | `data_prep_02_load_corpus_data.m` | Parse TLA corpus JSON into a MATLAB table |
 | `data_prep_03_integrate_sign_list_and_corpus_data.m` | Merge sign list with corpus frequencies |
 | `change_in_complexity_tests.m` | Main analysis: figures and correlations |
-| `complexity_movement.m` | Linear mixed-effects model (Time × Info × InitC) |
 | `unify_text_scale.m` | Rescale SVGs to a common interlinear-distance scale |
 | `perimetric_complexity.m` | Compute raster perimetric complexity from alpha channel |
 | `perimetric_complexity_from_shapes.m` | Compute perimetric complexity from polygon outlines |
