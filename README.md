@@ -7,6 +7,8 @@ This repository accompanies the paper:
 
 > Casey, C. (in preparation). "What Did Egyptian Scribes Call the Signs of Their Script?"
 
+Repository: https://github.com/writingthroughtime/hieratic-complexity-and-sign-names
+
 ---
 
 ## Overview
@@ -89,9 +91,13 @@ The `aku-pal/` directory contains data scraped from the AKU-PAL database:
 | `aku-pal/sign_core.csv` | Core sign metadata |
 | `aku-pal/sign-grapheme-mdc.csv` | Sign–grapheme–MdC mapping |
 
-The image directories (`tiffs/`, `svgs/`, `eps/`) are excluded from version
-control due to size (~32,000 files each). To regenerate them, run the AKU-PAL
-scraper (see `aku-pal/svg_to_tiff.py` and the companion Python project).
+**SVG files (`aku-pal/svgs/ht/`) are included in the repository.** Please do
+not re-scrape AKU-PAL to regenerate them — the database should not be hammered
+with bulk requests. If you need to regenerate the TIFFs or EPS files from the
+included SVGs, use `aku-pal/svg_to_tiff.py` (no network access required).
+
+TIFF and EPS directories are excluded from version control due to size. They
+can be fully regenerated from the SVGs using the Python script above.
 
 The TLA corpus data (`corpus/corpus_frequency_mdc.json`) and hieratic sign
 list (`sign_list.csv`, `dates.csv`) are included in the repository.
@@ -115,6 +121,8 @@ list (`sign_list.csv`, `dates.csv`) are included in the repository.
 | `shapescatter.m` | Draw sign silhouettes at data-point positions in a scatter plot |
 | `localNormalizeLabels.m` | Helper: normalize label arrays for `shapescatter` |
 | `plot_sign_complexity.m` | Plot complexity over time for one sign with regression |
+| `violin.m` | Violin plot grouped by a discrete x variable, with optional data labels and best-fit line |
+| `kdeplot.m` | Kernel density estimate with optional histogram overlay |
 
 ---
 
