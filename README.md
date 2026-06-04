@@ -78,6 +78,25 @@ console.
 
 ---
 
+## Metric Validation (`complexity/`)
+
+The `complexity/` subdirectory contains a self-contained experiment that
+validates **skeleton pixel count** as a complexity metric by comparing its
+correlation with human handwriting behaviour against two standard alternatives:
+perimetric complexity (P²/4πA) and algorithmic complexity (EPS file size as a
+description-length proxy).
+
+The experiment uses SVGs of the Latin cursive alphabet (a–z), rasterised into
+TIFFs, against behavioural data from a large online handwriting experiment
+covering drawing time, path length, speed, acceleration, jerk, and curvature
+metrics. If skeleton pixel count predicts handwriting difficulty as well as the
+two alternatives, it is validated as a behavioural surrogate for sign
+complexity in the hieratic context.
+
+See [`complexity/README.md`](complexity/README.md) for setup and usage.
+
+---
+
 ## Data
 
 The `aku-pal/` directory contains data scraped from the AKU-PAL database:
@@ -123,6 +142,7 @@ list (`sign_list.csv`, `dates.csv`) are included in the repository.
 | `plot_sign_complexity.m` | Plot complexity over time for one sign with regression |
 | `violin.m` | Violin plot grouped by a discrete x variable, with optional data labels and best-fit line |
 | `kdeplot.m` | Kernel density estimate with optional histogram overlay |
+| `complexity/` | Metric validation experiment — see `complexity/README.md` |
 
 ---
 
