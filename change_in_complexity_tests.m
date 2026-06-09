@@ -2,9 +2,9 @@
 clc
 close all
 
-set(groot, 'defaultAxesFontName', 'Minion Pro Hiero');
+set(groot, 'defaultAxesFontName', 'Times New Roman');
 
-saveFigures = false;
+saveFigures = true;
 figurePosition = [1 1 17 10]*2;
 
 disp('Loading sign list data...');
@@ -165,8 +165,8 @@ for showLabels = [false true]
 		shapescatter(shapes, -log(fs), ms, 20, [], ax);
 	end
 
-	xlabel('Information Content', 'FontName', 'Minion Pro Hiero');
-	ylabel('Change in Complexity', 'FontName', 'Minion Pro Hiero');
+	xlabel('Information Content', 'FontName', 'Times New Roman');
+	ylabel('Change in Complexity', 'FontName', 'Times New Roman');
 	grid on;
 
 	% Add regression line
@@ -182,7 +182,7 @@ for showLabels = [false true]
 	fprintf('Correlation coefficient (information vs. complexity slope): r = %.4f, p = %.10f\n', r, p);
 
 	titleString = sprintf('Information Content vs. Change in Complexity\nr = %0.4f, p = %0.4f', r, p);
-	title(titleString, 'FontName', 'Minion Pro Hiero');
+	title(titleString, 'FontName', 'Times New Roman');
 
 	if saveFigures
 		if showLabels
@@ -230,7 +230,7 @@ signsToPlot = 1:2;							% 10 most simplified
 signsToPlot = length(mdc)+(-10:0);			% 10 most complexified
 signsToPlot = find(ms<0)';					% All simplified
 signsToPlot = find(ms>0)';					% All complexified
-signsToPlot = find(strcmp(mdc, "D36"))';	% Specific MdC
+signsToPlot = find(ismember(mdc, ["G1", "A1", "G17", "D36", "D28", "G35"]))';	% Specific MdC
 
 for i = signsToPlot
 	figure(1000+i); clf;
@@ -248,7 +248,7 @@ for i = signsToPlot
 		oneSign = oneSign(randperm(height(oneSign), 550), :);
 		[~, mdl] = plot_sign_complexity(oneSign, mdc(i));
 		title(sprintf('%s | slope = %.4f', mdc(i), ms(i)), ...
-			'FontName', 'Minion Pro Hiero');
+			'FontName', 'Times New Roman');
 	else
 		[~, mdl] = plot_sign_complexity(filtered_sign_list, mdc(i));
 	end

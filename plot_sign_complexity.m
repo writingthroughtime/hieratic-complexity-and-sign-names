@@ -35,8 +35,8 @@ function [oneSign, mdl, xfit, yfit] = plot_sign_complexity(sign_list, selectedSi
 
     plot(ax, xfit, yfit, 'LineWidth', 1);
 
-    xlabel(ax, 'Date', 'FontName', 'Minion Pro Hiero');
-    ylabel(ax, 'Complexity', 'FontName', 'Minion Pro Hiero');
+    xlabel(ax, 'Date', 'FontName', 'Times New Roman');
+    ylabel(ax, 'Complexity', 'FontName', 'Times New Roman');
 
     grid(ax, 'on');
     box(ax, 'on');
@@ -44,7 +44,7 @@ function [oneSign, mdl, xfit, yfit] = plot_sign_complexity(sign_list, selectedSi
     slope = mdl.Coefficients.Estimate(2);
 
     title(ax, sprintf('%s | slope = %.4f', selectedSign, slope), ...
-        'FontName', 'Minion Pro Hiero');
+        'FontName', 'Times New Roman');
 
     hold(ax, 'off');
 end
