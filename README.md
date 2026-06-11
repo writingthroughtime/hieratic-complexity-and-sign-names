@@ -5,7 +5,7 @@ complexity change across the history of Egyptian hieratic script.
 
 This repository accompanies the paper:
 
-> Casey, C. (in preparation). "What Did Egyptian Scribes Call the Signs of Their Script?"
+> Casey, C. (in preparation). "What Did Scribes Remember?"
 
 Repository: https://github.com/writingthroughtime/hieratic-complexity-and-sign-names
 
