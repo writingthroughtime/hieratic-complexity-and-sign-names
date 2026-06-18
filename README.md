@@ -9,6 +9,8 @@ This repository accompanies the paper:
 
 Repository: https://github.com/writingthroughtime/hieratic-complexity-and-sign-names
 
+Interactive figures: https://writingthroughtime.github.io/hieratic-complexity-and-sign-names/
+
 ---
 
 ## Overview
@@ -23,6 +25,15 @@ Sign images come from the
 [AKU-PAL database](https://www.hieratologie.de/aku-pal/) of hieratic
 attestations. Corpus frequency data come from the
 [Thesaurus Linguae Aegyptiae (TLA)](https://thesaurus-linguae-aegyptiae.de/).
+
+---
+
+## Interactive figures
+
+I've included an interactive version of the paper's main figures online, served straight
+from this repository's `docs/` folder through GitHub Pages:
+
+**https://writingthroughtime.github.io/hieratic-complexity-and-sign-names/**
 
 ---
 

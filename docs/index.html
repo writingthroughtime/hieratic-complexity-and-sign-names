@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hieratic Sign Complexity over Time · Writing Through Time</title>
+<link rel="icon" type="image/svg+xml" href="https://writingthroughtime.github.io/graphics/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
+<style>
+@font-face{
+  font-family:"PlantinStdBold";
+  src:url("https://writingthroughtime.github.io/fonts/PlantinStd-Bold.otf") format("opentype");
+  font-weight:700;font-style:normal;font-display:swap;
+}
+:root{
+  --bg:#070707; --panel:#050505;
+  --line:rgba(255,255,255,0.12); --line-soft:rgba(255,255,255,0.06);
+  --text:#f1ede4; --muted:rgba(241,237,228,0.8); --accent:#dcc7a0;
+  --axis:#d9d9d9;
+  --header-height:78px; --max-width:1180px;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;overflow-x:hidden;color:var(--text);line-height:1.55;
+  font-family:var(--serif);
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,0.035), transparent 30%),
+    linear-gradient(180deg,#090909 0%,#050505 100%);
+  background-attachment:fixed;
+  text-shadow:0 1px 2px rgba(0,0,0,.4),0 0 4px rgba(255,255,255,.25);
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.08;z-index:0;
+  background-image:
+    radial-gradient(circle at 25% 25%, rgba(255,255,255,.08) 0, transparent 2px),
+    radial-gradient(circle at 75% 40%, rgba(255,255,255,.06) 0, transparent 1.5px),
+    radial-gradient(circle at 40% 75%, rgba(255,255,255,.05) 0, transparent 2px);
+  background-size:220px 220px,280px 280px,340px 340px;mix-blend-mode:screen;
+}
+a{color:inherit;text-decoration:none}
+svg text,svg tspan{text-shadow:none}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:1000;height:var(--header-height);
+  background:rgba(5,5,5,.84);border-bottom:1px solid var(--line);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.header-inner{display:flex;align-items:center;gap:1rem;height:100%;
+  max-width:var(--max-width);margin:0 auto;padding:0 1.25rem}
+.site-title{display:flex;align-items:center;gap:.6rem;
+  font-family:"PlantinStdBold",var(--serif);font-size:clamp(1.3rem,2.4vw,1.8rem);
+  line-height:1;white-space:nowrap}
+.site-logo{height:1.05em;width:auto;transform:translateY(-.12em)}
+.header-sub{margin-left:auto;color:var(--muted);font-size:.92rem;letter-spacing:.04em}
+.header-sub a{border-bottom:1px solid rgba(255,255,255,.22);padding-bottom:1px}
+.header-sub a:hover{border-color:var(--accent);color:var(--text)}
+
+/* layout */
+main{position:relative;z-index:1;max-width:var(--max-width);margin:0 auto;padding:30px 22px 70px}
+.intro{max-width:780px;margin:0 auto 22px}
+.kicker{margin:0 0 .5rem;color:var(--accent);text-transform:uppercase;
+  letter-spacing:.12em;font-size:.78rem}
+h1.page-title{font-family:"PlantinStdBold",var(--serif);font-weight:700;
+  font-size:clamp(2rem,4.4vw,3rem);line-height:1;margin:.1rem 0 .7rem}
+.intro p{color:var(--muted);margin:.4rem 0 0;font-size:1.02rem}
+
+.card{position:relative;background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;padding:14px 16px 8px;
+  box-shadow:0 18px 50px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.03) inset}
+.figtitle{text-align:center;font-family:"PlantinStdBold",var(--serif);
+  font-size:20px;margin:6px 0 0}
+.figtitle b{font-weight:inherit}
+.figstat{text-align:center;color:var(--muted);font-size:14px;margin:3px 0 8px}
+
+.toolbar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:0 0 12px;
+  font-size:.95rem;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;
+  border:1px solid rgba(255,255,255,.3);border-radius:999px;
+  background:rgba(255,255,255,.03);color:var(--text);cursor:pointer;
+  transition:transform .18s,background .18s,border-color .18s;font:inherit}
+.btn:hover{transform:translateY(-1px);background:rgba(220,199,160,.08);border-color:rgba(220,199,160,.45)}
+label.chk{display:inline-flex;gap:.5rem;align-items:center;cursor:pointer;user-select:none}
+label.chk input{accent-color:var(--accent)}
+
+svg.plot{width:100%;height:auto;display:block;touch-action:manipulation}
+.grid line{stroke:rgba(255,255,255,.10);stroke-width:1}
+.axis line{stroke:var(--axis);stroke-width:1}
+.axis text{fill:var(--axis);font-size:13px;font-family:var(--serif)}
+.frame{fill:none;stroke:var(--axis);stroke-width:1.1}
+.axislabel{fill:var(--text);font-size:15px;font-family:var(--serif)}
+.fitline{stroke:#268cdd;stroke-width:1.8;opacity:.95}
+.pt{cursor:pointer}
+.glyph{pointer-events:none}
+.glyph path,.glyph polygon,.glyph polyline,.glyph rect,.glyph circle,.glyph ellipse{transition:fill .1s,stroke .1s}
+.ov,.hit{fill:transparent;stroke:none}
+.pt:hover .glyph path,.pt:hover .glyph polygon,.pt:hover .glyph polyline,
+.pt:hover .glyph rect,.pt:hover .glyph circle,.pt:hover .glyph ellipse{fill:#fff !important;stroke:#fff !important}
+.hg{font-family:"Noto Sans Egyptian Hieroglyphs",serif;font-weight:400}
+
+/* popover */
+.pop-backdrop{position:fixed;inset:0;z-index:50;display:flex;align-items:center;
+  justify-content:center;padding:22px;background:rgba(3,3,3,.74);
+  backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+.pop-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  width:100%;max-width:520px;padding:18px 18px 16px;
+  box-shadow:0 30px 90px rgba(0,0,0,.65)}
+.pop-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.pop-title{font-family:"PlantinStdBold",var(--serif);font-size:19px}
+.pop-title b{font-weight:inherit;color:var(--accent)}
+.pop-close{border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);
+  width:34px;height:34px;border-radius:999px;cursor:pointer;font-size:16px;line-height:1;
+  flex:0 0 auto;transition:background .15s,border-color .15s}
+.pop-close:hover{background:rgba(220,199,160,.1);border-color:rgba(220,199,160,.45)}
+.pop-glyph{background:#f4efe6;border-radius:8px;margin:13px 0;padding:18px;
+  display:flex;align-items:center;justify-content:center;min-height:300px;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+.pop-glyph svg{height:300px;width:auto;max-width:100%}
+.pop-meta{color:var(--muted);font-size:14px;margin:2px 0 0}
+.pop-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:13px}
+.pop-link{display:inline-flex;align-items:center;gap:.45rem;padding:.55rem 1.1rem;
+  border:1px solid rgba(220,199,160,.5);border-radius:999px;color:var(--text);
+  background:rgba(220,199,160,.08);transition:transform .15s,background .15s}
+.pop-link:hover{transform:translateY(-1px);background:rgba(220,199,160,.16)}
+.lbl{font-size:11px;fill:var(--text);font-family:var(--serif);paint-order:stroke;
+  stroke:#050505;stroke-width:3px}
+.tip{position:fixed;pointer-events:none;background:var(--text);color:#070707;
+  font-size:12.5px;padding:4px 9px;border-radius:5px;opacity:0;transition:opacity .08s;
+  z-index:30;font-family:var(--serif);white-space:nowrap;text-shadow:none;
+  box-shadow:0 6px 18px rgba(0,0,0,.5)}
+.loading{padding:46px;text-align:center;color:var(--muted);font-size:15px}
+.prog{color:var(--accent);font-variant-numeric:tabular-nums}
+.note{color:var(--muted);font-size:12.5px;text-align:center;padding:6px 0 8px}
+
+footer{position:relative;z-index:1;border-top:1px solid var(--line-soft);
+  background:rgba(5,5,5,.6);margin-top:40px}
+.footer-inner{max-width:var(--max-width);margin:0 auto;padding:22px;
+  color:var(--muted);font-size:12.5px;line-height:1.6}
+.footer-inner a{border-bottom:1px solid rgba(255,255,255,.2)}
+.footer-inner a:hover{border-color:var(--accent);color:var(--text)}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="https://writingthroughtime.github.io/" target="_blank" rel="noopener">
+      <img class="site-logo" src="https://writingthroughtime.github.io/graphics/logos/Logo%20white.svg" alt="Writing Through Time">
+      <span>Writing Through Time</span>
+    </a>
+    <span class="header-sub"><a href="https://writingthroughtime.github.io/" target="_blank" rel="noopener">← main site</a></span>
+  </div>
+</header>
+
+<main>
+  <div class="intro">
+    <p class="kicker">Hieratic · Interactive Figures</p>
+    <h1 class="page-title">Sign Complexity over Time</h1>
+    <p>Interactive companion to the paper. Each mark is a real hieratic glyph from the
+       <a href="https://aku-pal.uni-mainz.de/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(255,255,255,.25)">AKU-PAL</a>
+       database. Click any sign in the overview to see how its complexity changed across Egyptian history.</p>
+  </div>
+  <div class="toolbar" id="toolbar"></div>
+  <div id="view"><div class="loading">Loading…</div></div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    Glyph images streamed from the
+    <a href="https://github.com/writingthroughtime/hieratic-complexity-and-sign-names" target="_blank" rel="noopener">project repository</a>
+    via CDN. Complexity = skeleton pixel count; information content = &minus;log(frequency).
+    Part of <a href="https://writingthroughtime.github.io/" target="_blank" rel="noopener">Writing Through Time</a>.
+  </div>
+</footer>
+<div class="tip" id="tip"></div>
+
+<script>
+const SVG_NS="http://www.w3.org/2000/svg";
+const tip=document.getElementById("tip");
+let SCATTER=null, SVGBASE="", UNI={};
+const signCache={}, glyphCache={};
+
+/* sign code -> Unicode hieroglyph */
+function uniChar(mdc){const h=UNI[mdc];return h?String.fromCodePoint(parseInt(h,16)):"";}
+function signHTML(mdc){const c=uniChar(mdc);return c?`<span class="hg">${c}</span> (${mdc})`:mdc;}
+function signText(mdc){const c=uniChar(mdc);return c?`${c} (${mdc})`:mdc;}
+
+/* ---- iris colormap (Casey): cosine RGB sweep over theta in [0, 4*pi/3] ----
+   Reproduces iris.m exactly. t in [0,1] -> red→orange→yellow→green→teal→blue. */
+function iris(t){
+  t=Math.max(0,Math.min(1,t));
+  const TWO=Math.PI*2, fPurple=TWO/3;
+  const th=t*(TWO-fPurple);                      // 0 .. 4*pi/3
+  const ch=v=>Math.round(255*((Math.cos(v)+1)/2)).toString(16).padStart(2,"0");
+  return "#"+ch(th)+ch(th-TWO/3)+ch(th-2*TWO/3);
+}
+
+function el(tag,attrs={},parent=null){
+  const n=document.createElementNS(SVG_NS,tag);
+  for(const k in attrs) n.setAttribute(k,attrs[k]);
+  if(parent) parent.appendChild(n);
+  return n;
+}
+function showTip(html,x,y){tip.innerHTML=html;tip.style.left=(x+12)+"px";tip.style.top=(y+12)+"px";tip.style.opacity=1;}
+function hideTip(){tip.style.opacity=0;}
+function niceTicks(min,max,count){
+  const span=max-min||1, raw=span/count, mag=Math.pow(10,Math.floor(Math.log10(raw)));
+  let norm=raw/mag, step;
+  if(norm<1.5)step=1;else if(norm<3)step=2;else if(norm<7)step=5;else step=10;
+  step*=mag;const t=[];let v=Math.ceil(min/step)*step;
+  for(;v<=max+1e-9;v+=step)t.push(Math.abs(v)<1e-9?0:+v.toFixed(6));
+  return t;
+}
+
+/* ---- fetch + recolour a glyph as a nested <svg> ---- */
+async function glyphText(htid){
+  if(glyphCache[htid]!==undefined) return glyphCache[htid];
+  try{
+    const r=await fetch(SVGBASE+htid+".svg");
+    const txt=await r.text();
+    glyphCache[htid]=txt; return txt;
+  }catch(e){ glyphCache[htid]=null; return null; }
+}
+function buildGlyph(txt,color,cx,cy,box){
+  const doc=new DOMParser().parseFromString(txt,"image/svg+xml");
+  const root=doc.documentElement;
+  if(!root||root.nodeName.toLowerCase()!=="svg") return null;
+  const node=document.importNode(root,true);
+  node.setAttribute("x",cx-box/2); node.setAttribute("y",cy-box/2);
+  node.setAttribute("width",box); node.setAttribute("height",box);
+  node.setAttribute("preserveAspectRatio","xMidYMid meet");
+  node.setAttribute("class","glyph");
+  node.querySelectorAll("path,polygon,polyline,rect,circle,ellipse").forEach(p=>{
+    p.style.fill=color; p.style.stroke="none";
+  });
+  return node;
+}
+async function placeGlyph(layer,htid,color,cx,cy,box,opt){
+  const txt=await glyphText(htid); if(!txt) return;
+  const g=buildGlyph(txt,color,cx,cy,box); if(!g) return;
+  const wrap=el("g",{class:"pt"});
+  wrap.appendChild(g);                                  // glyph below (pointer-events:none)
+  const hit=el("circle",{cx:cx,cy:cy,r:box*0.6,         // clickable overlay on top
+    class: opt.overlay==="disc" ? "ov" : "hit"},wrap);
+  if(opt.tipHtml){
+    hit.addEventListener("mousemove",ev=>showTip(opt.tipHtml,ev.clientX,ev.clientY));
+    hit.addEventListener("mouseleave",hideTip);
+  }
+  if(opt.onclick){wrap.style.cursor="pointer";hit.addEventListener("click",opt.onclick);}
+  layer.appendChild(wrap);
+}
+
+/* ---- popover: enlarge a single attestation + link to AKU-PAL ---- */
+async function openPopover(mdc,htid,date,cplx){
+  const num=String(htid).replace(/^ht_/,"");
+  const url="https://aku-pal.uni-mainz.de/signs/"+num;
+  const back=document.createElement("div");back.className="pop-backdrop";
+  const card=document.createElement("div");card.className="pop-card";back.appendChild(card);
+  card.innerHTML=
+    `<div class="pop-head">
+       <div>
+         <div class="pop-title">Sign ${signHTML(mdc)} · attestation ${num}</div>
+         <div class="pop-meta">date ${Math.round(date)} · complexity ${Math.round(cplx)}</div>
+       </div>
+       <button class="pop-close" aria-label="Close">✕</button>
+     </div>
+     <div class="pop-glyph"><div class="pop-loading" style="color:#7a756a;font-size:14px">Loading…</div></div>
+     <div class="pop-actions">
+       <a class="pop-link" href="${url}" target="_blank" rel="noopener">View on AKU-PAL ↗</a>
+     </div>`;
+  document.body.appendChild(back);
+  hideTip();
+  const close=()=>{back.remove();document.removeEventListener("keydown",onKey);};
+  const onKey=e=>{if(e.key==="Escape")close();};
+  document.addEventListener("keydown",onKey);
+  back.addEventListener("click",e=>{if(e.target===back)close();});
+  card.querySelector(".pop-close").addEventListener("click",close);
+  // inject the enlarged glyph (authentic black-ink rendering on parchment)
+  const txt=await glyphText(htid);
+  const slot=card.querySelector(".pop-glyph");slot.innerHTML="";
+  if(txt){
+    const doc=new DOMParser().parseFromString(txt,"image/svg+xml");
+    const root=doc.documentElement;
+    if(root&&root.nodeName.toLowerCase()==="svg"){
+      const node=document.importNode(root,true);
+      node.removeAttribute("width");node.removeAttribute("height");
+      slot.appendChild(node);
+    }
+  }else{slot.innerHTML='<div style="color:#7a756a;font-size:14px">Glyph unavailable</div>';}
+}
+async function runPool(items,worker,conc=18){
+  let i=0;
+  const runners=Array.from({length:Math.min(conc,items.length)},async()=>{
+    while(i<items.length){const idx=i++;await worker(items[idx],idx);}
+  });
+  await Promise.all(runners);
+}
+
+/* ---------- main scatter ---------- */
+async function renderScatter(showLabels){
+  const m=SCATTER.meta, signs=SCATTER.signs;
+  const W=960,H=640,ml=72,mr=30,mt=20,mb=64,pw=W-ml-mr,ph=H-mt-mb;
+  const xs=signs.map(s=>s.ic), ys=signs.map(s=>s.slope);
+  const xmin=Math.min(...xs)-0.5,xmax=Math.max(...xs)+0.5;
+  const ymin=Math.min(...ys)-0.3,ymax=Math.max(...ys)+0.3;
+  const sx=v=>ml+(v-xmin)/(xmax-xmin)*pw, sy=v=>mt+(ymax-v)/(ymax-ymin)*ph;
+
+  const view=document.getElementById("view");view.innerHTML="";
+  const card=document.createElement("div");card.className="card";view.appendChild(card);
+  const t=document.createElement("div");t.className="figtitle";t.textContent=m.title;card.appendChild(t);
+  const st=document.createElement("div");st.className="figstat";
+  st.textContent=`r = ${m.r.toFixed(4)}, p = ${m.p.toFixed(4)}  ·  n = ${m.n} signs`;card.appendChild(st);
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,class:"plot"});card.appendChild(svg);
+
+  const gGrid=el("g",{class:"grid"},svg),gAx=el("g",{class:"axis"},svg);
+  for(const tx of niceTicks(xmin,xmax,8)){
+    el("line",{x1:sx(tx),y1:mt,x2:sx(tx),y2:mt+ph},gGrid);
+    el("text",{x:sx(tx),y:mt+ph+20,"text-anchor":"middle"},gAx).textContent=tx;
+  }
+  for(const ty of niceTicks(ymin,ymax,8)){
+    el("line",{x1:ml,y1:sy(ty),x2:ml+pw,y2:sy(ty)},gGrid);
+    el("text",{x:ml-9,y:sy(ty)+4,"text-anchor":"end"},gAx).textContent=ty;
+  }
+  el("rect",{x:ml,y:mt,width:pw,height:ph,class:"frame"},svg);
+  el("text",{x:ml+pw/2,y:H-16,"text-anchor":"middle",class:"axislabel"},svg).textContent=m.xlabel;
+  const yl=el("text",{x:20,y:mt+ph/2,"text-anchor":"middle",class:"axislabel",
+    transform:`rotate(-90 20 ${mt+ph/2})`},svg);yl.textContent=m.ylabel;
+  const f=m.fit;
+  el("line",{x1:sx(f.x0),y1:sy(f.slope*f.x0+f.intercept),
+             x2:sx(f.x1),y2:sy(f.slope*f.x1+f.intercept),class:"fitline"},svg);
+
+  const note=document.createElement("div");note.className="note";
+  note.textContent="Click a sign to open its complexity-over-time trajectory.";card.appendChild(note);
+
+  const layer=el("g",{},svg);
+  const ordered=signs.map((s,i)=>({s,i})).sort((a,b)=>a.s.ic-b.s.ic);
+  await runPool(ordered,async({s,i})=>{
+    const color=iris(i/(signs.length-1));
+    await placeGlyph(layer,s.rep,color,sx(s.ic),sy(s.slope),34,{
+      overlay:"disc",
+      onclick:ev=>{ev.preventDefault();location.hash="#/sign/"+encodeURIComponent(s.file);},
+      tipHtml:`${signHTML(s.mdc)} · slope ${s.slope.toFixed(3)} · n=${s.n}`});
+    if(showLabels){
+      const lb=el("text",{x:sx(s.ic),y:sy(s.slope)-19,"text-anchor":"middle",class:"lbl",
+        "font-family":'"Noto Sans Egyptian Hieroglyphs",Georgia,serif'},layer);
+      lb.textContent=signText(s.mdc);
+    }
+  });
+}
+
+/* ---------- per-sign trajectory ---------- */
+async function renderSign(obj){
+  const W=960,H=620,ml=80,mr=30,mt=20,mb=62,pw=W-ml-mr,ph=H-mt-mb;
+  const pts=obj.points;
+  const xmin=-2700,xmax=500;
+  const cmin=Math.min(...pts.map(p=>p.c)),cmax=Math.max(...pts.map(p=>p.c));
+  const ymin=cmin-1000,ymax=cmax+500;
+  const sx=v=>ml+(v-xmin)/(xmax-xmin)*pw, sy=v=>mt+(ymax-v)/(ymax-ymin)*ph;
+
+  const view=document.getElementById("view");view.innerHTML="";
+  const card=document.createElement("div");card.className="card";view.appendChild(card);
+  const t=document.createElement("div");t.className="figtitle";
+  t.innerHTML=`Sign complexity over time — <b>${signHTML(obj.mdc)}</b>`;card.appendChild(t);
+  const st=document.createElement("div");st.className="figstat";
+  st.innerHTML=`slope = ${obj.slope.toFixed(4)}  ·  ${obj.n_total} attestations`+
+    (obj.n_shown<obj.n_total?` (<span class="prog" id="prog">0</span>/${obj.n_shown} shown)`:
+                             ` (<span class="prog" id="prog">0</span> loaded)`);
+  card.appendChild(st);
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,class:"plot"});card.appendChild(svg);
+
+  const gGrid=el("g",{class:"grid"},svg),gAx=el("g",{class:"axis"},svg);
+  for(const tx of niceTicks(xmin,xmax,7)){
+    el("line",{x1:sx(tx),y1:mt,x2:sx(tx),y2:mt+ph},gGrid);
+    el("text",{x:sx(tx),y:mt+ph+20,"text-anchor":"middle"},gAx).textContent=tx;
+  }
+  for(const ty of niceTicks(ymin,ymax,7)){
+    el("line",{x1:ml,y1:sy(ty),x2:ml+pw,y2:sy(ty)},gGrid);
+    el("text",{x:ml-9,y:sy(ty)+4,"text-anchor":"end"},gAx).textContent=ty;
+  }
+  el("rect",{x:ml,y:mt,width:pw,height:ph,class:"frame"},svg);
+  el("text",{x:ml+pw/2,y:H-16,"text-anchor":"middle",class:"axislabel"},svg).textContent="Date";
+  const yl=el("text",{x:20,y:mt+ph/2,"text-anchor":"middle",class:"axislabel",
+    transform:`rotate(-90 20 ${mt+ph/2})`},svg);yl.textContent="Complexity";
+
+  const dx0=Math.min(...pts.map(p=>p.d)),dx1=Math.max(...pts.map(p=>p.d));
+  el("line",{x1:sx(dx0),y1:sy(obj.slope*dx0+obj.intercept),
+             x2:sx(dx1),y2:sy(obj.slope*dx1+obj.intercept),class:"fitline"},svg);
+
+  const layer=el("g",{},svg);
+  const sorted=pts.map((p,i)=>({p,i})).sort((a,b)=>a.p.d-b.p.d);
+  let done=0;const prog=document.getElementById("prog");
+  await runPool(sorted,async({p,i})=>{
+    const color=iris(i/Math.max(1,pts.length-1));
+    await placeGlyph(layer,p.s,color,sx(p.d),sy(p.c),26,{
+      overlay:"hit",
+      onclick:()=>openPopover(obj.mdc,p.s,p.d,p.c),
+      tipHtml:`date ${Math.round(p.d)} · complexity ${Math.round(p.c)} · click to enlarge`});
+    done++; if(prog) prog.textContent=done;
+  });
+}
+
+/* ---------- toolbar / routing ---------- */
+function setToolbar(view){
+  const tb=document.getElementById("toolbar");
+  if(view==="scatter"){
+    tb.innerHTML=`<label class="chk"><input type="checkbox" id="lblToggle"> Show sign labels</label>`;
+    document.getElementById("lblToggle").addEventListener("change",e=>renderScatter(e.target.checked));
+  }else{
+    tb.innerHTML=`<button class="btn" id="back">← Back to overview</button>`;
+    document.getElementById("back").addEventListener("click",()=>location.hash="#/");
+  }
+}
+async function ensureScatter(){
+  if(SCATTER)return;
+  const [rs,ru]=await Promise.all([fetch("data/scatter.json"),fetch("data/mdc_unicode.json")]);
+  SCATTER=await rs.json();SVGBASE=SCATTER.meta.svg_base;
+  try{UNI=await ru.json();}catch(e){UNI={};}
+}
+async function loadSign(file){
+  if(signCache[file])return signCache[file];
+  const r=await fetch("data/signs/"+encodeURIComponent(file)+".json");
+  const o=await r.json();signCache[file]=o;return o;
+}
+async function route(){
+  try{
+    await ensureScatter();
+    const mm=location.hash.match(/^#\/sign\/(.+)$/);
+    if(mm){
+      setToolbar("sign");
+      document.getElementById("view").innerHTML='<div class="loading">Loading glyphs…</div>';
+      const obj=await loadSign(decodeURIComponent(mm[1]));
+      await renderSign(obj);window.scrollTo(0,0);
+    }else{
+      setToolbar("scatter");
+      document.getElementById("view").innerHTML='<div class="loading">Loading glyphs…</div>';
+      await renderScatter(false);
+    }
+  }catch(e){
+    document.getElementById("view").innerHTML=
+      '<div class="loading">Could not load data ('+e+').<br>If viewing locally, serve the folder over HTTP (see README).</div>';
+  }
+}
+window.addEventListener("hashchange",route);
+route();
+</script>
+</body>
+</html>
