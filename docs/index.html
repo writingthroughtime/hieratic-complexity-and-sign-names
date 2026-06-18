@@ -156,9 +156,11 @@ footer{position:relative;z-index:1;border-top:1px solid var(--line-soft);
   <div class="intro">
     <p class="kicker">Hieratic · Interactive Figures</p>
     <h1 class="page-title">Sign Complexity over Time</h1>
-    <p>Interactive companion to the paper. Each mark is a real hieratic glyph from the
+    <p>Interactive companion to the paper: PAPER_REF.</p>
+    <p>Each mark is a real hieratic glyph from the
        <a href="https://aku-pal.uni-mainz.de/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(255,255,255,.25)">AKU-PAL</a>
-       database. Information content calculated from sign frequency values in the <a href="https://thesaurus-linguae-aegyptiae.de/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(255,255,255,.25)">Thesaurus Linguae Aegyptiae</a>. Click any sign in the overview to see how its complexity changed across Egyptian history.</p>
+       database.</p>
+       <p>Information content calculated from sign frequency values in the <a href="https://thesaurus-linguae-aegyptiae.de/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(255,255,255,.25)">Thesaurus Linguae Aegyptiae</a>.</p>
   </div>
   <div class="toolbar" id="toolbar"></div>
   <div id="view"><div class="loading">Loading…</div></div>
@@ -330,7 +332,7 @@ async function renderScatter(showLabels){
              x2:sx(f.x1),y2:sy(f.slope*f.x1+f.intercept),class:"fitline"},svg);
 
   const note=document.createElement("div");note.className="note";
-  note.textContent="Click a sign to open its complexity-over-time trajectory.";card.appendChild(note);
+  note.textContent="*Sign forms used to label points in the figure are the oldest in the dataset for each sign, i.e. Old Kingdom examples.";card.appendChild(note);
 
   const layer=el("g",{},svg);
   const ordered=signs.map((s,i)=>({s,i})).sort((a,b)=>a.s.ic-b.s.ic);
