@@ -31,7 +31,7 @@ docs/
 ## Glyph images
 
 I don't copy the glyphs into this folder. To match the dark theme, each glyph is fetched
-as an SVG and recoloured in the browser (the iris colormap from the paper), so it has to
+as an SVG and recolored in the browser (the iris colormap from the paper), so it has to
 come from a host that allows cross-origin requests. The page therefore loads them from the
 jsDelivr CDN, which mirrors this repo's files and sends the right CORS header:
 
@@ -41,7 +41,7 @@ https://cdn.jsdelivr.net/gh/writingthroughtime/hieratic-complexity-and-sign-name
 
 That base URL lives in `data/scatter.json` under `meta.svg_base`. Note that
 `raw.githubusercontent.com` will **not** work for this — it serves images but blocks the
-cross-origin `fetch()` the recolouring needs. If you fork the repo or change the default
+cross-origin `fetch()` the recoloring needs. If you fork the repo or change the default
 branch, update `meta.svg_base` (including the `@main` tag) to match.
 
 ## Running it in your own fork

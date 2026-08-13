@@ -56,7 +56,7 @@ function [data, meta] = session_data(scriptName, sessionId)
         idx = find(strcmp(lettersFreq, lower(lbl)), 1);
         if ~isempty(idx)
             xytByShape.frequency(i)   = frequencies(idx);
-            xytByShape.information(i) = -log(frequencies(idx));
+            xytByShape.information(i) = -log2(frequencies(idx));   % bits
         end
         xytByShape.writingTime(i) = getDuration(xytByShape.strokes(i));
     end

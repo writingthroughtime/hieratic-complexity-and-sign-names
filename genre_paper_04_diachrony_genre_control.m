@@ -59,7 +59,7 @@ varianceFigurePosition = [1 1 20 4.5]*2;   % short: Fig 5 is a single bar
 
 %% ---- build the diachronic model set -----------------------------------
 % Same filters as the companion paper (step 01), PLUS the genre labels.
-% The sign count drops from 52 to 43 purely because unlabelled instances
+% The sign count drops from 52 to 43 purely because unlabeled instances
 % fall away.
 load('genre_paper_analysis_set.mat', 'instances');
 if saveFigures && ~exist(figureFolder, 'dir'); mkdir(figureFolder); end
@@ -86,7 +86,7 @@ for iSign = 1:nSigns
     oneSign = diachronicSet(diachronicSet.mdc == signNames(iSign), :);
     coeffs  = [ones(height(oneSign),1), oneSign.date] \ oneSign.complexity;
     slopeRaw(iSign) = coeffs(2);
-    informationContent(iSign) = -log(mean(oneSign.frequency));
+    informationContent(iSign) = -log2(mean(oneSign.frequency));   % bits
 end
 
 %% ---- (1b) per-sign slopes WITH genre fixed effects --------------------
@@ -229,7 +229,7 @@ for iPanel = 1:2
     yline(ax, 0, 'k:');
     rng(shapeColorSeed);   % same color for the same sign in both panels
     shapescatter(signShapes, informationContent, slopes, signScalePx, [], ax);
-    xlabel(ax, 'Information content  -log(freq)', 'FontName', 'Times New Roman');
+    xlabel(ax, 'Information content  -log_2(freq)  [bits]', 'FontName', 'Times New Roman');
     ylabel(ax, 'Change in complexity (px/yr)', 'FontName', 'Times New Roman');
     title(ax, sprintf('%s\nr = %.3f, p = %.4f', panelSpecs{iPanel, 4}, ...
         panelSpecs{iPanel, 2}, panelSpecs{iPanel, 3}), ...

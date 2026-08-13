@@ -42,7 +42,7 @@ fprintf('Validation set: %d instances, %d graphemes\n', ...
 
 %% ---- per-sign slope and information content ---------------------------
 % For each grapheme:
-%   informationContent = -log(mean corpus frequency)
+%   informationContent = -log2(mean corpus frequency)   [bits]
 %   complexitySlope    = OLS slope of complexity ~ date (px per year)
 nSigns = numel(keepMdc);
 informationContent = nan(nSigns, 1);
@@ -50,7 +50,7 @@ complexitySlope    = nan(nSigns, 1);
 
 for iSign = 1:nSigns
     oneSign = validationSet(validationSet.mdc == keepMdc(iSign), :);
-    informationContent(iSign) = -log(mean(oneSign.frequency));
+    informationContent(iSign) = -log2(mean(oneSign.frequency));
 
     designMatrix = [ones(height(oneSign),1), oneSign.date];
     coeffs = designMatrix \ oneSign.complexity;

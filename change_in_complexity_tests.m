@@ -5,7 +5,7 @@ close all
 set(groot, 'defaultAxesFontName', 'Times New Roman');
 
 saveFigures = true;
-figurePosition = [1 1 17 10]*2;
+figurePosition = [1 1 17 10];
 
 disp('Loading sign list data...');
 load('sign_list_plus_corpus_data.mat', 'sign_list');
@@ -18,6 +18,50 @@ try
 catch
 	disp('Sign list not reloaded, already filtered for valid files.');
 end
+
+
+%% Attach text genre and exclude unwanted genres
+% texts.csv carries one row per text with a genre label. Join it onto the
+% sign list via sign_list.text <-> texts.text so that entire genres can be
+% dropped. Kemit is excluded by default: it is a school text whose script is
+% variously classed as cursive hieroglyphs, archaizing, Old Hieratic or
+% semi-hieratic, so its sign forms do not belong in an ordinary hieratic
+% developmental sequence.
+
+% excludedGenres = "Kemit";		% Testing whether excluding Kemyt improves or harms results
+excludedGenres = [];			% Excluding Kemyt improves results, so don't do it in favor of good faith reporting
+
+genreOpts = detectImportOptions('texts.csv', 'Encoding', 'UTF-8');
+genreOpts.VariableNamingRule = 'preserve';
+texts = readtable('texts.csv', genreOpts);
+
+% The first column may carry a UTF-8 byte order mark; normalize its name.
+texts.Properties.VariableNames{1} = 'text';
+
+textGenre = table(string(texts.text), string(texts.genre), ...
+	'VariableNames', {'text', 'genre'});
+textGenre.genre(strlength(strtrim(textGenre.genre)) == 0) = "unspecified";
+
+% Map each sign instance onto its text's genre
+[hasGenre, genreIdx] = ismember(string(sign_list.text), textGenre.text);
+sign_list.genre = repmat("unmatched", height(sign_list), 1);
+sign_list.genre(hasGenre) = textGenre.genre(genreIdx(hasGenre));
+
+if any(~hasGenre)
+	warning('%i sign instances had no matching text in texts.csv.', sum(~hasGenre));
+end
+
+if ~isempty(excludedGenres)
+	dropMask = ismember(sign_list.genre, excludedGenres);
+	fprintf('Excluding genre(s): %s\n', strjoin(cellstr(excludedGenres), ', '));
+	fprintf('  removed %i of %i sign instances (%.1f%%), %i texts\n', ...
+		sum(dropMask), numel(dropMask), 100 * sum(dropMask) / numel(dropMask), ...
+		numel(unique(sign_list.text(dropMask))));
+	sign_list = sign_list(~dropMask, :);
+end
+
+fprintf('Sign list after genre filter: %i instances, %i distinct signs\n', ...
+	height(sign_list), numel(unique(sign_list.mdc)));
 
 
 %% Show sign distributions over time
@@ -48,6 +92,7 @@ selectedEpochs = [
     "Altes Reich"
     "Mittleres Reich"
     "Neues Reich"
+	% "Spätzeit" % Excluded due to data sparsity in this epoch
     "Griechisch-römische Zeit"
 ];
 filtered_sign_list = filtered_sign_list(ismember(filtered_sign_list.epoche, selectedEpochs), :);
@@ -70,7 +115,8 @@ for iEpoch = 1:numel(selectedEpochs)
 		continue;
 	end
 
-	x = -log(epochData.in_epoch_frequency);
+	% Information content in bits: -log2(p)
+	x = -log2(epochData.in_epoch_frequency);
 	y = epochData.complexity;
 
     [rEpoch, pEpoch] = corr(x, y);
@@ -146,7 +192,7 @@ fs = fs(~isnan(fs));
 
 %% Information Content vs. Change in Complexity scatter plot
 
-for showLabels = [false true]
+for showLabels = [false]
 
 	figure(201); clf;
 
@@ -155,30 +201,33 @@ for showLabels = [false true]
 		set(gcf, 'Position', figurePosition);
 	end
 
+	% Information content in bits: -log2(p)
+	information = -log2(fs);
+
 	ax = axes;
-	xlim(ax, [min(-log(fs))-0.5 max(-log(fs))+0.5]);
+	xlim(ax, [min(information)-0.5 max(information)+0.5]);
 	ylim(ax, [min(ms)-0.3 max(ms)+0.3]);
 
 	if showLabels
-		shapescatter(shapes, -log(fs), ms, 20, mdc, ax);
+		shapescatter(shapes, information, ms, 40, mdc, ax);
 	else
-		shapescatter(shapes, -log(fs), ms, 20, [], ax);
+		shapescatter(shapes, information, ms, 40, [], ax);
 	end
 
-	xlabel('Information Content', 'FontName', 'Times New Roman');
+	xlabel('Information Content (bits)', 'FontName', 'Times New Roman');
 	ylabel('Change in Complexity', 'FontName', 'Times New Roman');
 	grid on;
 
 	% Add regression line
-	mdl = fitlm(-log(fs), ms);
-	xfit = linspace(min(-log(fs)), max(-log(fs)), 100)';
+	mdl = fitlm(information, ms);
+	xfit = linspace(min(information), max(information), 100)';
 	yfit = predict(mdl, xfit);
 
 	hold on;
 	plot(xfit, yfit, 'LineWidth', 1);
 	hold off;
 
-	[r, p] = corr(-log(fs), ms);
+	[r, p] = corr(information, ms);
 	fprintf('Correlation coefficient (information vs. complexity slope): r = %.4f, p = %.10f\n', r, p);
 
 	titleString = sprintf('Information Content vs. Change in Complexity\nr = %0.4f, p = %0.4f', r, p);
@@ -245,7 +294,7 @@ for i = signsToPlot
 	% (Without this the resulting figures are too complex to paste into Keynote)
 	oneSign = filtered_sign_list(strcmp(filtered_sign_list.mdc, mdc(i)), :);
 	if height(oneSign) > 525
-		oneSign = oneSign(randperm(height(oneSign), 550), :);
+		oneSign = oneSign(randperm(height(oneSign), min(550,height(oneSign))), :);
 		[~, mdl] = plot_sign_complexity(oneSign, mdc(i));
 		title(sprintf('%s | slope = %.4f', mdc(i), ms(i)), ...
 			'FontName', 'Times New Roman');

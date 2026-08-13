@@ -93,15 +93,15 @@ console.
 
 The `complexity/` subdirectory contains a self-contained experiment that
 validates **skeleton pixel count** as a complexity metric by comparing its
-correlation with human handwriting behaviour against two standard alternatives:
+correlation with human handwriting behavior against two standard alternatives:
 perimetric complexity (P²/4πA) and algorithmic complexity (EPS file size as a
 description-length proxy).
 
-The experiment uses SVGs of the Latin cursive alphabet (a–z), rasterised into
-TIFFs, against behavioural data from a large online handwriting experiment
+The experiment uses SVGs of the Latin cursive alphabet (a–z), rasterized into
+TIFFs, against behavioral data from a large online handwriting experiment
 covering drawing time, path length, speed, acceleration, jerk, and curvature
 metrics. If skeleton pixel count predicts handwriting difficulty as well as the
-two alternatives, it is validated as a behavioural surrogate for sign
+two alternatives, it is validated as a behavioral surrogate for sign
 complexity in the hieratic context.
 
 See [`complexity/README.md`](complexity/README.md) for setup and usage.

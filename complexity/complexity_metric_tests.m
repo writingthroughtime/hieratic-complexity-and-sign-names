@@ -5,21 +5,21 @@
 % Purpose
 % -------
 % Validate skeleton pixel count as a complexity metric by comparing its
-% correlation with behavioural metrics (drawing time, path length, etc.)
+% correlation with behavioral metrics (drawing time, path length, etc.)
 % against two competing complexity metrics: perimetric complexity and
 % algorithmic complexity.
 %
-% Three complexity metrics are computed from rasterised letter images:
+% Three complexity metrics are computed from rasterized letter images:
 %   1. Skeleton pixel count   — proxy for total pen-path length
 %   2. Perimetric complexity  — P² / (4πA), boundary-to-area ratio
 %   3. Algorithmic complexity — EPS file size in bytes (LZ-based proxy)
 %
-% These are correlated with 17 behavioural metrics from the Latin
+% These are correlated with 17 behavioral metrics from the Latin
 % handwriting experiments in allData_step_2.mat.
 %
 % Prerequisites
 % -------------
-% 1. Install Python deps, rasterise SVGs, then vectorise to EPS (one-time):
+% 1. Install Python deps, rasterize SVGs, then vectorize to EPS (one-time):
 %      pip install -r requirements.txt
 %      python3 svg_to_tiff.py ./svgs ./tiffs --scale 4 --dpi 600
 %      python3 compress_tiffs.py          (requires potrace on PATH)
@@ -27,14 +27,14 @@
 %    with potrace and writes vector EPS to eps/. The EPS file sizes are used
 %    as the algorithmic complexity proxy (sparser Bezier paths = simpler shape).
 %
-% 2. Generate behavioural data (one-time, requires network + MATLAB path
+% 2. Generate behavioral data (one-time, requires network + MATLAB path
 %    containing fetch_json / parse_*_json utilities):
 %      run step_1_save_all_data.m        → allData_step_1.mat
 %      run step_2_generate_kinematics.m  → allData_step_2.mat
 %
 % Outputs
 %   figures/r_heatmap.svg                    — correlation r-value matrix
-%   figures/<metric>_vs_<behavioural>.svg    — violin plot per pair
+%   figures/<metric>_vs_<behavioral>.svg    — violin plot per pair
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -77,7 +77,7 @@ for i = 1:nLetters
 
     img = imread(tiffPath);
 
-    % Extract alpha channel: 4-channel TIFF → channel 4; greyscale fallback
+    % Extract alpha channel: 4-channel TIFF → channel 4; grayscale fallback
     if size(img, 3) >= 4
         alpha = img(:,:,4);
     elseif size(img, 3) == 2
@@ -116,9 +116,9 @@ end
 fprintf('[OK] Complexity metrics computed.\n\n');
 
 
-%% 2.  Load Latin behavioural data
+%% 2.  Load Latin behavioral data
 
-fprintf('--- Step 2: Loading behavioural data ---\n');
+fprintf('--- Step 2: Loading behavioral data ---\n');
 
 load(dataFile, 'allData');
 
@@ -142,7 +142,7 @@ end
 
 fprintf('  Total shape instances: %d\n\n', height(allShapes));
 
-% Behavioural metrics — keep only those actually present
+% Behavioral metrics — keep only those actually present
 candidateMetrics = { ...
     'drawingTime',    'pathLength',       'totalWorkProxy',  'workPerLength', ...
     'meanSpeed',      'peakSpeed',        'rmsVstar',        ...
@@ -154,12 +154,12 @@ presentMask      = cellfun(@(m) ismember(m, allShapes.Properties.VariableNames),
 behavMetricNames = candidateMetrics(presentMask);
 nBehav           = numel(behavMetricNames);
 
-fprintf('Behavioural metrics available: %d\n', nBehav);
+fprintf('Behavioral metrics available: %d\n', nBehav);
 fprintf('  %s\n', behavMetricNames{:});
 fprintf('\n');
 
 
-%% 3.  Align complexity metrics to behavioural observations
+%% 3.  Align complexity metrics to behavioral observations
 
 fprintf('--- Step 3: Building per-observation arrays ---\n');
 
@@ -260,9 +260,9 @@ ax.YTick      = 1:nCmplx;
 ax.YTickLabel = complexityLabels;
 ax.FontName   = 'Minion Pro Hiero';
 
-title('Correlation (r): complexity metrics vs. behavioural metrics', ...
+title('Correlation (r): complexity metrics vs. behavioral metrics', ...
     'FontName', 'Minion Pro Hiero');
-xlabel('Behavioural metric', 'FontName', 'Minion Pro Hiero');
+xlabel('Behavioral metric', 'FontName', 'Minion Pro Hiero');
 ylabel('Complexity metric',  'FontName', 'Minion Pro Hiero');
 
 % Annotate each cell with r value
@@ -295,7 +295,7 @@ end
 fprintf('[OK] Heatmap figure done.\n\n');
 
 
-%% 6.  Violin plots: one figure per (complexity × behavioural) pair
+%% 6.  Violin plots: one figure per (complexity × behavioral) pair
 
 fprintf('--- Step 6: Violin plots (%d figures) ---\n', nCmplx * nBehav);
 

@@ -25,7 +25,7 @@
 %
 % EXPECTED CONSOLE OUTPUT (values from the validated Python run):
 %   base-filtered set:    29,997 instances, 794 texts, 520 graphemes
-%   genre-labelled subset: 29,205 instances, 674 texts, 516 graphemes, 51 genres
+%   genre-labeled subset: 29,205 instances, 674 texts, 516 graphemes, 51 genres
 %
 % Requires: sign_list_plus_corpus_data.mat , texts.csv
 % Read-only w.r.t. the base data; writes only the two derived .mat files.
@@ -65,7 +65,7 @@ textsTable = readtable('texts.csv', 'TextType','string', 'Encoding','UTF-8');
 sign_list.genre = strings(height(sign_list), 1);
 sign_list.genre(textFound) = textsTable.genre(textLoc(textFound));
 
-% has_genre marks rows usable for genre analysis. We KEEP unlabelled rows
+% has_genre marks rows usable for genre analysis. We KEEP unlabeled rows
 % in the table because step 01 (validation against the companion paper)
 % must run on the full base set, genre or no genre.
 sign_list.has_genre = ...
@@ -95,7 +95,7 @@ fprintf('\nBase-filtered set:     %6d instances, %4d texts, %3d graphemes\n', ..
 fprintf('  (expected from Python run: 29997 instances, 794 texts, 520 graphemes)\n');
 
 labelled = instances(instances.has_genre, :);
-fprintf('Genre-labelled subset: %6d instances, %4d texts, %3d graphemes, %d genres\n', ...
+fprintf('Genre-labeled subset: %6d instances, %4d texts, %3d graphemes, %d genres\n', ...
     height(labelled), numel(unique(labelled.text)), ...
     numel(unique(labelled.mdc)), numel(unique(labelled.genre)));
 fprintf('  (expected from Python run: 29205 instances, 674 texts, 516 graphemes, 51 genres)\n');
@@ -107,7 +107,7 @@ fprintf('\nSaved %s\n', analysisSetFile);
 % Fig 2 (genre_paper_03) draws ACTUAL sign outlines for a couple of
 % graphemes across registers. The outlines live in sign_list.shapes and
 % are far too heavy to keep for all 30k rows, so we save just the New
-% Kingdom, genre-labelled rows of the chosen exemplar signs.
+% Kingdom, genre-labeled rows of the chosen exemplar signs.
 exemplarRows = ismember(string(sign_list.mdc), exemplarSigns) & ...
                string(sign_list.epoche) == "Neues Reich" & ...
                sign_list.has_genre & ...

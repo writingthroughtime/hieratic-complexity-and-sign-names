@@ -62,7 +62,7 @@ for iSign = 1:numel(allSigns)
     nkEligible = nkSign(ismember(nkSign.genre, bigGenres), :);
     etaSquared = local_eta2(nkEligible.complexity, nkEligible.genre);
 
-    % --- complexity range over the WHOLE labelled corpus (all epochs) ---
+    % --- complexity range over the WHOLE labeled corpus (all epochs) ---
     allEpochsSign = labelledSet(labelledSet.mdc == signName, :);
     if height(allEpochsSign) < minInstancesOverall
         continue;
