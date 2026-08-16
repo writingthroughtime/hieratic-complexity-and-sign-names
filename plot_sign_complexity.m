@@ -27,7 +27,7 @@ function [oneSign, mdl, xfit, yfit] = plot_sign_complexity(sign_list, selectedSi
     xlim(ax, [-2700 500]);
     ylim(ax, [min(oneSign.complexity)-1000 max(oneSign.complexity)]+500);
 
-    shapescatter(oneSign.shapes, x, y, 40, [], ax);
+    shapescatter(oneSign.shapes, x, y, 10, [], ax);
 
     mdl = fitlm(x, y);
     xfit = linspace(min(x), max(x), 100)';

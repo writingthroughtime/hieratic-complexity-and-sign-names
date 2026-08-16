@@ -122,17 +122,17 @@ for iEpoch = 1:numel(selectedEpochs)
     [rEpoch, pEpoch] = corr(x, y);
     fprintf('Epoch: %s, Correlation coefficient: %.4f, p-value: %.10f\n', epoch, rEpoch, pEpoch);
 
-	figure(100+iEpoch); clf;
-    violin(x, y, epochData.mdc, ...
-		'Bandwidth', 300, ...
-		'XLabel', 'Information Content', 'YLabel', 'Complexity', 'Title', epoch);
-
-	if saveFigures
-		set(gcf, 'Units', 'centimeters');
-		set(gcf, 'Position', figurePosition);
-		exportgraphics(gcf, sprintf('./figures/%s.svg', epoch), ...
-			'ContentType','vector');
-	end
+	% figure(100+iEpoch); clf;
+    % violin(x, y, epochData.mdc, ...
+	% 	'Bandwidth', 300, ...
+	% 	'XLabel', 'Information Content', 'YLabel', 'Complexity', 'Title', epoch);
+	% 
+	% if saveFigures
+	% 	set(gcf, 'Units', 'centimeters');
+	% 	set(gcf, 'Position', figurePosition);
+	% 	exportgraphics(gcf, sprintf('./figures/%s.svg', epoch), ...
+	% 		'ContentType','vector');
+	% end
 end
 
 
@@ -209,9 +209,9 @@ for showLabels = [false]
 	ylim(ax, [min(ms)-0.3 max(ms)+0.3]);
 
 	if showLabels
-		shapescatter(shapes, information, ms, 40, mdc, ax);
+		shapescatter(shapes, information, ms, 10, mdc, ax);
 	else
-		shapescatter(shapes, information, ms, 40, [], ax);
+		shapescatter(shapes, information, ms, 10, [], ax);
 	end
 
 	xlabel('Information Content (bits)', 'FontName', 'Times New Roman');
