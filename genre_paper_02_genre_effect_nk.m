@@ -149,3 +149,7 @@ function [fStat, pValue, dfNumerator, dfDenominator] = ...
              (fullModel.SSE / dfDenominator);
     pValue = fcdf(fStat, dfNumerator, dfDenominator, 'upper');
 end
+
+%% Run the next in sequence
+
+genre_paper_03_register_scale;

@@ -252,6 +252,7 @@ else
 end
 for iSegment = 1:numel(segments)
     barHandle(iSegment).FaceColor = segmentColors(iSegment, :);
+	barHandle(iSegment).FaceAlpha = 0.8;
 end
 
 % Fit the axes to the bar exactly: no vertical whitespace above or below.
@@ -308,7 +309,9 @@ errorbar(ax, orderedSlopes.date_slope, yPositions, ...
     'Color', 'k', 'MarkerFaceColor', 'k', 'MarkerSize', 4, ...
     'LineWidth', 1, 'CapSize', 0);
 xline(ax, 0, 'k--');
-set(ax, 'YTick', yPositions, 'YTickLabel', orderedSlopes.genre);
+% Display spelling: the paper uses "Kemyt", the AKU-PAL data label is "Kemit"
+set(ax, 'YTick', yPositions, 'YTickLabel', ...
+    replace(orderedSlopes.genre, "Kemit", "Kemyt"));
 ylim(ax, [0.4, nWithinGenres + 0.6]);
 xlabel(ax, 'Diachronic slope inside the genre (px/yr, sign FE, 95% CI)', ...
     'FontName', 'Times New Roman');
@@ -340,3 +343,7 @@ function local_save_figure(saveFigures, figureFolder, name, figurePosition)
             'ContentType', 'vector');
     end
 end
+
+%% Run the next in sequence
+
+genre_paper_05_range_hypothesis;

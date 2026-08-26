@@ -144,3 +144,7 @@ fprintf('Saved %s (%d graphemes, earliest-attestation shapes)\n', ...
     representativeShapesFile, height(representative_shapes));
 
 fprintf('\nDone. Next: genre_paper_01_validate_against_companion.m\n');
+
+%% Run the next in sequence
+
+genre_paper_01_validate_against_companion;

@@ -318,7 +318,7 @@ function label = local_english_genre_label(germanGenre)
          'Name list / onomasticon', 'Visitor graffito', 'Literary text', ...
          'Narrative tale', 'Letter', 'Legal document', ...
          'Divine-cult hymn', 'Household list', 'Administrative text', ...
-         'Court record / testimony', 'Kemit (school book-hand)', 'Medical text'});
+         'Court record / testimony', 'Kemyt (school book-hand)', 'Medical text'});
     key = char(germanGenre);
     if isKey(map, key)
         label = map(key);
@@ -334,3 +334,7 @@ function local_save_figure(saveFigures, figureFolder, name, figurePosition)
             'ContentType', 'vector');
     end
 end
+
+%% Run the next in sequence
+
+genre_paper_04_diachrony_genre_control;

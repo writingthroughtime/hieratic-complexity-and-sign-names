@@ -1,0 +1,795 @@
+text,n_instances,mean_complexity,genre,epoche,date
+"O. Deir el-Bahri T3.L15",2,7594,Kemit,Neues Reich,-1309.5
+"London, Petrie Museum of Egyptian Archaeology, UC 32058",1,7263,Juristische Urkunde,Mittleres Reich,-1787.5
+"Turin, Museo Egizio, S. 17507/4",1,6976,Administrativer Text,Altes Reich,-2553.5
+"London, British Museum, EA 10769",1,6939,Magischer Text,Zweite Zwischenzeit,-1711.5
+"Leiden, Rijksmuseum van Oudheden, AMS 26 b vo",1,5879,Brief,Neues Reich,-1246
+"Turin, Museo Egizio, Cat. 1975",1,5707,nicht spezifiziert,Neues Reich,-1089.5
+"London, Petrie Museum of Egyptian Archaeology, 32261",1,5341,nicht spezifiziert,Neues Reich,-1338.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10497",1,5235,Brief,Neues Reich,-1127.5
+"P. Abusir Kairo Fragm. k",1,5233,Administrativer Text,Altes Reich,-2394.5
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 54",4,5223.75,nicht spezifiziert,Altes Reich,-2263
+"O. Deir el-Bahri T3.L14",4,5147.75,Kemit,Neues Reich,-1309.5
+"P. Strasbourg Bg",1,4874,nicht spezifiziert,Altes Reich,-2263
+"London, Petrie Museum of Egyptian Archaeology, UC 38177",1,4731,Juristische Urkunde,Neues Reich,-1357.5
+"P. Illahun, Berlin Brief R",1,4672,nicht spezifiziert,Mittleres Reich,-1852.5
+"P. Berl. Br",2,4649,Brief,Mittleres Reich,-1852.5
+"Kairo, Institut français d’archéologie orientale, 2605",3,4645.66666666667,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 53001",1,4585,Totenbuch,Dritte Zwischenzeit,-1007
+"Hieratisches Graffito am Eingang von TT 320",1,4531,nicht spezifiziert,Dritte Zwischenzeit,-973.5
+"London, British Museum, EA 10274 ro",6,4525.16666666667,Literarischer Text,Mittleres Reich,-1879
+"Paris, Musée du Louvre, E 21324",1,4509,Totenbuch,Neues Reich,-1452
+"Turin, Museo Egizio, CGT 53007",1,4506,Totenbuch,Dritte Zwischenzeit,-1007
+"D. Abusir 2",2,4461.5,Besuchertext,Neues Reich,-1452
+"London, British Museum, EA 10247",6,4456.33333333333,Literarischer Text,Neues Reich,-1197
+"London, Petrie Museum of Egyptian Archaeology, UC 32178",1,4430,nicht spezifiziert,Mittleres Reich,-1879
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3043",2,4384.5,Literarischer Text,Neues Reich,-1203.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 2146",2,4352,Nichtköniglicher Historischer Text,Neues Reich,-1428
+"P. Berl. M",1,4343,nicht spezifiziert,Mittleres Reich,-1852.5
+"Köln, Seminar für Ägyptologie der Universität zu Köln, Aeg. 10207",2,4327,Totenbuch,Spätzeit,-594.5
+"D. Medum 17",1,4309,Besuchertext,Neues Reich,-1360.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10842",5,4299.4,Namenliste/Onomasticon,Neues Reich,-1148
+"D. Assiut N13.1 TAS2",4,4276.5,Besuchertext,Neues Reich,-1422.5
+"Chicago, Institute for the Study of Ancient Cultures Museum, E25378",5,4251,Kemit,Neues Reich,-1309.5
+"London, Petrie Museum of Egyptian Archaeology, 32230",2,4234.5,Administrativer Text,Neues Reich,-1334.5
+"Leiden, Rijksmuseum van Oudheden, AMS 26 a",6,4185.33333333333,nicht spezifiziert,Neues Reich,-1240.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10499 vo",1,4161,Erzählung,Mittleres Reich,-1879
+"Leiden, Rijksmuseum van Oudheden, AMS 27",6,4158.16666666667,nicht spezifiziert,Neues Reich,-1240.5
+"Kairo, Ägyptisches Museum, CG 25209",1,4155,nicht spezifiziert,Neues Reich,-1309.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10002",2,4151.5,Brief,Mittleres Reich,-1949.5
+"London, Petrie Museum of Egyptian Archaeology, 32202",1,4145,Brief,Mittleres Reich,-1802
+"Strasbourg Ff",1,4141,nicht spezifiziert,Altes Reich,-2263
+"D. Hatnub 27",3,4133.33333333333,Biographischer Text,Erste Zwischenzeit,-2092.5
+"Kairo, Ägyptisches Museum, CG 25208",2,4131,nicht spezifiziert,Neues Reich,-1309.5
+"Kairo, Ägyptisches Museum, CG 25212",2,4118.5,nicht spezifiziert,Neues Reich,-1309.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3048 ro",22,4117.13636363636,Hymnus im Götterkult,Dritte Zwischenzeit,-830
+"New York City, Metropolitan Museum of Art, 22.3.525",1,4115,Rechnung,Mittleres Reich,-1970.5
+"London, British Museum, EA 10184",13,4113.38461538462,Königsname und Titel,Neues Reich,-1246
+"Kairo, Ägyptisches Museum, CG 58038",23,4107.39130434783,Hymnus im Götterkult,Neues Reich,-1413.5
+"New York City, Metropolitan Museum of Art, 15.3.988",8,4093.25,Kemit,Mittleres Reich,-1817.5
+"D. Abusir Steinmetzaufschrift",5,4081,nicht spezifiziert,Altes Reich,-2419.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10016",2,4076,Brief,Mittleres Reich,-1813.5
+"London, Petrie Museum of Egyptian Archaeology, 32196",3,4052,Modellbrief,Mittleres Reich,-1802
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3110",1,4049,nicht spezifiziert,Spätzeit,-487.5
+"D. Hatnub 12",2,4031,nicht spezifiziert,Erste Zwischenzeit,-1905
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3027",6,4025.66666666667,Magischer Text,Neues Reich,-1422.5
+"P. Abusir Kairo Fragm. η",1,3999,Administrativer Text,Altes Reich,-2394.5
+"Kairo, Institut français d’archéologie orientale, 2582",2,3976.5,Kemit,Neues Reich,-1182
+"P. Abusir Kairo Fragm. b",3,3970,Administrativer Text,Altes Reich,-2394.5
+"D. Hatnub 38",1,3961,nicht spezifiziert,Erste Zwischenzeit,-1905
+"London, British Museum, EA 10182",63,3953.03174603175,Lehre,Neues Reich,-1199.5
+"P. Strasbourg Ei",1,3950,nicht spezifiziert,Altes Reich,-2263
+"Turin, Museo Egizio, CGT 57286",6,3937.16666666667,Kemit,Neues Reich,-1182
+"P. Abusir Kairo Fragm. ψ",1,3916,Administrativer Text,Altes Reich,-2394.5
+"Tally Stone of mꜣꜤ.t-kꜣ-rꜤ 2",1,3896,nicht spezifiziert,Neues Reich,-1465.5
+"Turin, Museo Egizio, CGT 57447",3,3890,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 32197",1,3870,Brief,Mittleres Reich,-1879
+"London, Petrie Museum of Egyptian Archaeology, 32158",7,3855.71428571429,Erzählung,Mittleres Reich,-1802
+"London, British Museum, EA 10246 (1-5)",6,3849.5,Literarischer Text,Neues Reich,-1210.5
+"London, Petrie Museum of Egyptian Archaeology, 46283",1,3829,nicht spezifiziert,Neues Reich,-1342.5
+"London, British Museum, EA 10243",3,3823.66666666667,nicht spezifiziert,Neues Reich,-1208
+"P. Strasbourg Eo",1,3814,nicht spezifiziert,Altes Reich,-2263
+"London, Petrie Museum of Egyptian Archaeology, UC 38178 A",2,3812.5,Juristische Urkunde,Neues Reich,-1357.5
+"Kairo, Ägyptisches Museum, CG 25207",2,3810.5,nicht spezifiziert,Neues Reich,-1309.5
+"Kairo, Institut français d’archéologie orientale, 2546",7,3809,Kemit,Neues Reich,-1182
+"New York City, Metropolitan Museum of Art, 14.1.455 + 457",17,3806.82352941176,Kemit,Neues Reich,-1182
+"Tally Stone of mꜣꜤ.t-kꜣ-rꜤ 1",1,3768,nicht spezifiziert,Neues Reich,-1465.5
+"P. Strasbourg Cf",1,3762,nicht spezifiziert,Altes Reich,-2263
+"Kairo, Ägyptisches Museum, JE 26230",40,3735.975,Totenbuch,Dritte Zwischenzeit,-973.5
+"Turin, Museo Egizio, CGT 57003 vo",3,3732,Hymnus im Götterkult,Neues Reich,-1182
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, H 150",3,3722,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, 32201",1,3715,Brief,Mittleres Reich,-1802
+"P. Strasbourg G",8,3713.375,nicht spezifiziert,Altes Reich,-2263
+"London, Petrie Museum of Egyptian Archaeology, UC 32198",1,3710,nicht spezifiziert,Mittleres Reich,-1879
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3057",22,3703.13636363636,Verklärungen,Griechisch-römische Zeit,-181
+"Kairo, Ägyptisches Museum, CG 4748",1,3698,Administrativer Text,Neues Reich,-1344
+"London, British Museum, EA 10274 vo",2,3693.5,Literarischer Text,Mittleres Reich,-1879
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1191",53,3691.84905660377,Kemit,Neues Reich,-1199.5
+"P. Strasbourg Eg",1,3684,nicht spezifiziert,Altes Reich,-2263
+"London, Petrie Museum of Egyptian Archaeology, UC 32209",1,3674,Brief,Mittleres Reich,-1817.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3023 New York City, Pierpont Morgan Library, Amh. Egy. Pap. 1",63,3669.66666666667,Erzählung,Mittleres Reich,-1808.5
+"D. Hatnub 10",1,3665,nicht spezifiziert,Erste Zwischenzeit,-1905
+"London, British Museum, EA 10222",29,3651.27586206897,Literarischer Text,Neues Reich,-1309.5
+"New York City, Pierpont Morgan Library, Amh. Egy. Pap. 6",16,3650.5,Gerichtsurkunde/Zeugenaussage,Neues Reich,-1110.5
+"Kairo, Institut français d’archéologie orientale, 2590",6,3648.16666666667,Kemit,Neues Reich,-1182
+"P. Strasbourg Dg",1,3646,nicht spezifiziert,Altes Reich,-2263
+"D. Hatnub 28",3,3632.33333333333,nicht spezifiziert,Erste Zwischenzeit,-2092.5
+"Kairo, Ägyptisches Museum, JE 25975",17,3623.94117647059,Totenbrief,Altes Reich,-2263
+"Kairo, Institut français d’archéologie orientale, 223",1,3622,Administrativer Text,Neues Reich,-1158
+"D. Hatnub 3",6,3598.83333333333,Biographischer Text,Altes Reich,-2231
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3013 A-B",3,3587.33333333333,Totenbuch,Dritte Zwischenzeit,-892
+"Chicago, Institute for the Study of Ancient Cultures Museum, E25348",18,3580.27777777778,Kemit,Neues Reich,-1309.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3055",70,3574.31428571429,Ritualtext im Götterkult,Dritte Zwischenzeit,-830
+"D. Hatnub 6",4,3571.5,Biographischer Text,Altes Reich,-2231
+"Kairo, Ägyptisches Museum, CG 61019 [docket Herihor]",3,3563.66666666667,Nicht spezifizierter Königlicher Text,Dritte Zwischenzeit,-1007
+"Kairo, Ägyptisches Museum, JE 95838",33,3563.15151515152,Totenbuch,Dritte Zwischenzeit,-1007
+"D. Assiut N13.1 TW31",1,3562,Fürbitte,Neues Reich,-1182
+"D. TT 63.1",17,3555.05882352941,Besuchertext,Neues Reich,-1395
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10498",6,3552.83333333333,Rechnung,Neues Reich,-1363
+"Prag, Náprstek Museum, P 2034",19,3546.31578947368,Kemit,Neues Reich,-1182
+"Moskau, State Pushkin Museum of Fine Arts, I, 1б 314",371,3543.23989218329,Hymne im Königskult,Zweite Zwischenzeit,-1565
+"D. Assiut N13.1 TS29",10,3535.1,Fürbitte,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 794",2,3532.5,Namenliste/Onomasticon,Neues Reich,-1150
+"London, British Museum, EA 10312",8,3513.375,Totenbuch,Dritte Zwischenzeit,-866.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3024",8,3510.75,Erzählung,Mittleres Reich,-1808.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3029 [c]",7,3510.28571428571,Rechnung,Neues Reich,-1413.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, ÄM 13772",1,3508,Sargtexte,Mittleres Reich,-2020
+"Kairo, Institut français d’archéologie orientale, OL 2",5,3505.8,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 10101 a",53,3500.60377358491,Mundöffnungsritual,Neues Reich,-1084
+"Kairo, Institut français d’archéologie orientale, OL 8",3,3478.66666666667,Kemit,Neues Reich,-1182
+"P. Illahun Tp Gr.",1,3477,Inventarliste,Mittleres Reich,-1879
+"P. Berl. Brief Ḳmꜣ",1,3474,Brief,Mittleres Reich,-1852.5
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 58",13,3471.30769230769,Brief,Altes Reich,-2263
+"D. Assiut N13.1 TN4",3,3470.66666666667,nicht spezifiziert,Neues Reich,-1422.5
+"London, British Museum, EA 10245",23,3459.17391304348,Literarischer Text,Neues Reich,-1197
+"Leipzig, Bibliotheca Albertina, Papyrus- und Ostrakasammlung, P. Ebers",529,3456.40075614367,Medizinischer Text,Neues Reich,-1516.5
+"Kairo, Ägyptisches Museum, CG 58032",47,3453.78723404255,Hymnus im Götterkult,Dritte Zwischenzeit,-973.5
+"Kairo, Ägyptisches Museum, CG 61020 [docket A]",1,3453,nicht spezifiziert,Dritte Zwischenzeit,-968.5
+"London, British Museum, EA 10203",9,3438.66666666667,Totenbuch,Dritte Zwischenzeit,-866.5
+"London, Petrie Museum of Egyptian Archaeology, 46316",2,3432,nicht spezifiziert,Neues Reich,-1345.5
+"Paris, Musée du Louvre, E 4892",6,3432,Erzählung,Neues Reich,-1203.5
+"D. Hatnub 22",30,3428.73333333333,Biographischer Text,Erste Zwischenzeit,-2092.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3050",8,3425,Hymnus im Götterkult,Dritte Zwischenzeit,-830
+"P. Strasbourg Ek",1,3418,nicht spezifiziert,Altes Reich,-2263
+"P. Abusir Kairo Fragm. f",1,3412,Administrativer Text,Altes Reich,-2394.5
+"D. Hatnub 16",21,3406.61904761905,Biographischer Text,Erste Zwischenzeit,-2092.5
+"Kairo, Ägyptisches Museum, JE 58037",3,3406.33333333333,nicht spezifiziert,Neues Reich,-1168.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10482",53,3400.1320754717,Sargtexte,Mittleres Reich,-1914
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10621",19,3398.68421052632,Administrativer Text,Neues Reich,-1452
+"D. Abusir 5",3,3396,Besuchertext,Neues Reich,-1452
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10004",2,3392,nicht spezifiziert,Mittleres Reich,-1827.5
+"Kairo, Ägyptisches Museum, CG 58057",3,3389.66666666667,nicht spezifiziert,Neues Reich,-1286.5
+"London, Petrie Museum of Egyptian Archaeology, 32057",19,3382.78947368421,Medizinischer Text,Mittleres Reich,-1808.5
+"D. Hatnub 4",2,3380.5,nicht spezifiziert,Altes Reich,-2231
+"Kairo, Institut français d’archéologie orientale, 2603",16,3379.625,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10069",1,3376,Administrativer Text,Mittleres Reich,-1828.5
+"D. Hatnub 11",5,3373.8,Nichtköniglicher Historischer Text,Erste Zwischenzeit,-1905
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 23256",65,3370.41538461538,Totenbuch,Griechisch-römische Zeit,-181
+"London, British Museum, EA 9999",1028,3369.546692607,Tempelbezogene Texte,Neues Reich,-1127.5
+"Moskau, State Pushkin Museum of Fine Arts, I, 1б 314 (Kol. 21)",11,3366.54545454545,Namenliste/Onomasticon,Zweite Zwischenzeit,-1565
+"Turin, Museo Egizio, CGT 54054",13,3363.07692307692,Magischer Text,Neues Reich,-1127.5
+"Kairo, Institut français d’archéologie orientale, OL 34",5,3362.4,Kemit,Neues Reich,-1182
+"Kairo, Ägyptisches Museum, JE 58064",1,3362,nicht spezifiziert,Altes Reich,-2423
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 52",5,3361.2,nicht spezifiziert,Altes Reich,-2263
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10523",93,3360.61290322581,nicht spezifiziert,Altes Reich,-2263
+"Kairo, Institut français d’archéologie orientale, OL 14",4,3343.25,Kemit,Neues Reich,-1182
+"P. Strasbourg Ep",2,3341.5,Brief,Altes Reich,-2263
+"P. Strasbourg Dβ",2,3340.5,nicht spezifiziert,Altes Reich,-2263
+"P. Strasbourg Dv",1,3337,nicht spezifiziert,Altes Reich,-2263
+"D. Medum 5",18,3330.72222222222,Besuchertext,Neues Reich,-1438.5
+"Strasbourg H",9,3329.77777777778,nicht spezifiziert,Altes Reich,-2263
+"Turin, Museo Egizio, CGT 57393",21,3329.7619047619,Administrativer Text,Neues Reich,-1151.5
+"Kairo, Ägyptisches Museum, JE 71580",2,3321,Administrativer Text,Mittleres Reich,-1879
+"New York City, Pierpont Morgan Library, Amh. Egy. Pap. 11",3,3319.66666666667,nicht spezifiziert,Neues Reich,-1286.5
+"Turin, Museo Egizio, CGT 57020",59,3315.35593220339,Haushaltsliste,Neues Reich,-1168.5
+"Turin, Museo Egizio, CGT 57029",2,3315,Administrativer Text,Neues Reich,-1160.5
+"P. Abusir Berlin 04",8,3310.875,Administrativer Text,Altes Reich,-2465
+"D. Hatnub 20",23,3304.78260869565,Biographischer Text,Erste Zwischenzeit,-2092.5
+"London, British Museum, EA 10554",78,3303.01282051282,Totenbuch,Dritte Zwischenzeit,-946.5
+"London, Petrie Museum of Egyptian Archaeology, Amarna Inschrift 72",1,3302,Administrativer Text,Neues Reich,-1422.5
+"D. Abusir 1",3,3292.33333333333,Besuchertext,Neues Reich,-1452
+"D. Hatnub 18",5,3289.4,Biographischer Text,Erste Zwischenzeit,-2092.5
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 57",77,3288.62337662338,Brief,Altes Reich,-2263
+"London, Petrie Museum of Egyptian Archaeology, UC 32179",5,3288.2,Rechnung,Mittleres Reich,-1830.5
+"Kairo, Institut français d’archéologie orientale, 2501",2,3285,Kemit,Neues Reich,-1182
+"London, British Museum, EA 10249",278,3279.52517985612,Literarischer Text,Neues Reich,-1199.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.868",7,3270,Kemit,Neues Reich,-1182
+"Edinburgh, National Museums of Scotland, The Royal Museum of Scotland, A 1956.314",50,3262.44,Buch vom Atmen,Griechisch-römische Zeit,-11.5
+"Kairo, Institut français d’archéologie orientale, 2569",3,3261.33333333333,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, ÄM 13665",2,3258.5,nicht spezifiziert,Altes Reich,-2263
+"P. Abusir Kairo kl. Fragmente",4,3252.25,Administrativer Text,Altes Reich,-2394.5
+"D. Hatnub 14",31,3242.09677419355,Biographischer Text,Erste Zwischenzeit,-2092.5
+"D. Hatnub 17",30,3239.43333333333,Biographischer Text,Erste Zwischenzeit,-2092.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10494",4,3237.5,Brief,Neues Reich,-1097.5
+"Paris, Bibliothèque Nationale de France, 196 II",1,3237,Brief,Neues Reich,-1089.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.456",5,3235.4,Kemit,Neues Reich,-1182
+"London, British Museum, EA 10183",243,3231.83950617284,Erzählung,Neues Reich,-1198.5
+"Kairo, Institut français d’archéologie orientale, 2549",14,3228.92857142857,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10495",2,3227.5,Namenliste/Onomasticon,Zweite Zwischenzeit,-1711.5
+"Paris, Bibliothèque Nationale de France, Egyptien 186–194",267,3223.82771535581,Lehre,Mittleres Reich,-1879
+"Prag, Náprstek Museum, P 3826",8,3221.75,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3029 [a]",240,3221.10416666667,Nicht spezifizierter Königlicher Text,Neues Reich,-1413.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3056",88,3219.06818181818,Hymnus im Götterkult,Dritte Zwischenzeit,-830
+"London, Petrie Museum of Egyptian Archaeology, UC 32200",2,3217,Brief,Mittleres Reich,-1879
+"London, Petrie Museum of Egyptian Archaeology, UC 32783",20,3210.45,Brief,Neues Reich,-1347.5
+"London, Petrie Museum of Egyptian Archaeology, 32191",1,3208,nicht spezifiziert,Mittleres Reich,-1879
+"Prag, Náprstek Museum, P 3830",15,3198.4,Kemit,Neues Reich,-1182
+"P. Strasbourg Fa",1,3195,nicht spezifiziert,Altes Reich,-2263
+"D. Hatnub 23",22,3194.18181818182,Biographischer Text,Erste Zwischenzeit,-2092.5
+"London, British Museum, EA 10181",262,3191.71374045802,Erzählung,Neues Reich,-1240.5
+"London, British Museum, EA 10188 [palimpsest new]",204,3186.56862745098,Ritualtext im Götterkult,Griechisch-römische Zeit,-313.5
+"Kairo, Institut français d’archéologie orientale, 2551",8,3180.125,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3033",342,3173.35380116959,Erzählung,Zweite Zwischenzeit,-1565
+"Turin, Museo Egizio, CGT 57552",9,3170.88888888889,Kemit,Neues Reich,-1182
+"P. Abusir Berlin kleine Fragmente",13,3170.84615384615,Administrativer Text,Altes Reich,-2419.5
+"Sankt Petersburg, State Hermitage Museum, ДВ 1116 B vo",56,3160.30357142857,Literarischer Text,Neues Reich,-1413.5
+"London, Petrie Museum of Egyptian Archaeology, UC 32271 A",15,3157,Kemit,Mittleres Reich,-1828
+"P. Berl. Brief Td",1,3155,Brief,Mittleres Reich,-1852.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3025",11,3152.27272727273,Erzählung,Mittleres Reich,-1808.5
+"Paris, Bibliothèque Nationale de France, Egyptien 209",59,3149.94915254237,nicht spezifiziert,Neues Reich,-1292.5
+"Kairo, Institut français d’archéologie orientale, 2556",43,3143.60465116279,Kemit,Neues Reich,-1182
+"Sankt Petersburg, State Hermitage Museum, ДВ 1115",42,3141.04761904762,Erzählung,Mittleres Reich,-1914
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3022 New York City, Pierpont Morgan Library, Amh. Egy. Pap. 4",526,3135.43155893536,Erzählung,Mittleres Reich,-1808.5
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 63",4,3135,Brief,Altes Reich,-2263
+"Leiden, Rijksmuseum van Oudheden, L.I.2",162,3134.72222222222,Buch vom Durchwandern der Ewigkeit,Griechisch-römische Zeit,64.5
+"London, British Museum, EA 10185",231,3131.31601731602,Literarischer Text,Neues Reich,-1203.5
+"Manchester, John Rylands Library, Dem. 9",73,3129.82191780822,Petition,Spätzeit,-513.5
+"Paris, Musée du Louvre, E 6858",2,3128,Götterdekret,Dritte Zwischenzeit,-973.5
+"Leipzig, Ägyptisches Museum der Universität Leipzig – Georg Steindorff, 495",7,3127.57142857143,Namenliste/Onomasticon,Neues Reich,-1452
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3073 London, British Museum, EA 10265 + EA 10266 New York City, Pierpont Morgan Library, Amherst 41",81,3125.59259259259,Totenbuch,Griechisch-römische Zeit,-181
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 15724",4,3121.25,Administrativer Text,Altes Reich,-2263
+"P. Strasbourg Bc",6,3121.16666666667,nicht spezifiziert,Altes Reich,-2263
+"Sankt Petersburg, State Hermitage Museum, ДВ 1116 A vo",146,3120.8904109589,Lehre,Neues Reich,-1376
+"D. Hatnub 52",1,3113,Biographischer Text,Zweite Zwischenzeit,-1565
+"P. Illahun, Tempeltagebuch Jahr 14",1,3112,nicht spezifiziert,Mittleres Reich,-1852.5
+"Turin, Museo Egizio, CGT 57054",7,3109.42857142857,Kemit,Neues Reich,-1182
+"Edinburgh, National Museums of Scotland, The Royal Museum of Scotland, A 1956.313",125,3106.624,Buch vom Atmen,Griechisch-römische Zeit,-9.5
+"Albany (NY), Albany Institute of History & Art, 1900.3.1 Kairo, Ägyptisches Museum, JE 95649 + JE 95714 Marseille, Musée d'Archéologie Mediterranéenne, 291 + 91 / 2 / 1",1,3104,Totenbuch,Spätzeit,-594.5
+"London, Petrie Museum of Egyptian Archaeology, UC 32037",3,3101.33333333333,Juristische Urkunde,Mittleres Reich,-1792.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10473 + P. 10474 A–B",33,3098.42424242424,Administrativer Text,Altes Reich,-2465
+"Turin, Museo Egizio, CGT 57034",5,3098.4,Administrativer Text,Neues Reich,-1162.5
+"Brooklyn (NY), The Brooklyn Museum, 47.218.84",12,3097.91666666667,Mythologischer Text,Spätzeit,-637
+"P. Illahun, Tempeltagebuch Jahr 6",1,3097,nicht spezifiziert,Mittleres Reich,-1852.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3030 A-E",170,3096.32352941176,Buch vom Atmen,Griechisch-römische Zeit,124.5
+"Turin, Museo Egizio, CGT 57015",5,3093.6,Administrativer Text,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3024 New York City, Pierpont Morgan Library, Amh. Egy. Pap. 3",151,3092.49668874172,Literarischer Text,Mittleres Reich,-1808.5
+"Kairo, Ägyptisches Museum, CG 61018",1,3091,nicht spezifiziert,Dritte Zwischenzeit,-968.5
+"Kairo, Institut français d’archéologie orientale, 1817",35,3090,Administrativer Text,Neues Reich,-1193.5
+"Kairo, Institut français d’archéologie orientale, OL 20",6,3082.5,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57060",15,3082.33333333333,Kemit,Neues Reich,-1182
+"P. Abusir Kairo Fragm. λ",3,3075.33333333333,Administrativer Text,Altes Reich,-2394.5
+"P. Strasbourg Eu",1,3074,nicht spezifiziert,Altes Reich,-2263
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3049",20,3067.5,Hymnus im Götterkult,Dritte Zwischenzeit,-830
+"Kairo, Institut français d’archéologie orientale, OL 25",14,3063.14285714286,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, 32157 ro",52,3063.09615384615,Hymne im Königskult,Mittleres Reich,-1802
+"London, Petrie Museum of Egyptian Archaeology, 32256",1,3063,Administrativer Text,Neues Reich,-1344.5
+"Ann Arbor, University of Michigan, Kelsey Museum of Ancient and Mediaeval Archaeology, 1981.04.0025 Florenz, Museo Egizio, 11912 a–b New York City, Metropolitan Museum of Art, 25.3.212 a-g Providence (RI), John Hay Library, 18077 Toronto, Royal Ontario Museum, 910.85.222 [b]",40,3057.625,Totenbuch,Spätzeit,-637
+"Kairo, Institut français d’archéologie orientale, 2557",14,3056.21428571429,Kemit,Neues Reich,-1182
+"D. Hatnub 25",82,3056.10975609756,Biographischer Text,Erste Zwischenzeit,-2092.5
+"D. Hatnub 24",91,3050.83516483516,Biographischer Text,Erste Zwischenzeit,-2092.5
+"Kairo, Institut français d’archéologie orientale, OL 33",10,3043.1,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10050",1,3043,Administrativer Text,Mittleres Reich,-1864.5
+"London, British Museum, EA 10045 + EA 10322 Manchester, John Rylands Library, Hieratic papyrus 4 Oxford, Bodleian Library, MS. Egypt. a. 1 (P) + MS. Egypt. b. 2 (P) Wien, Kunsthistorisches Museum, ÄOS 3856 + ÄOS 3857 + ÄOS 3858 + ÄOS 3862 + ÄOS 3864 + ÄOS 3866 + ÄOS 3867 + ÄOS 3868 + ÄOS 3869 Zagreb, Archäologisches Museum in Zagreb, 886",1,3037,Totenbuch,Griechisch-römische Zeit,-248.5
+"München, Staatliche Sammlung Ägyptischer Kunst, ÄS 1638",11,3037,Kemit,Neues Reich,-1246
+"Kairo, Institut français d’archéologie orientale, 337",16,3035.625,Administrativer Text,Neues Reich,-1149.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10003",4,3034,Administrativer Text,Mittleres Reich,-1861.5
+"Leiden, Rijksmuseum van Oudheden, AMS 38 b",7,3029.85714285714,Brief,Neues Reich,-1093.5
+"Kairo, Ägyptisches Museum, JE 58063",49,3027.24489795918,Administrativer Text,Altes Reich,-2465
+"D. Abusir 6",10,3026.3,Besuchertext,Neues Reich,-1452
+"London, Petrie Museum of Egyptian Archaeology, 32265",1,3019,nicht spezifiziert,Neues Reich,-1422.5
+"Turin, Museo Egizio, CGT 54053",108,3018.80555555556,Hymnus im Götterkult,Neues Reich,-1182
+"D. Abusir 4",4,3017.25,Besuchertext,Neues Reich,-1452
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 56",106,3015.39622641509,Brief,Altes Reich,-2263
+"Kairo, Ägyptisches Museum, CG 58069",275,3008.64363636364,Rechnung,Zweite Zwischenzeit,-1711.5
+"P. Strasbourg Ed",1,3008,nicht spezifiziert,Altes Reich,-2263
+"D. Assiut N13.1 TN30",2,3005,Signatur,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11257",14,3004,Kemit,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12628 + P. 12641",38,3000.18421052632,Administrativer Text,Neues Reich,-1152.5
+"Tally Stone of mꜣꜤ.t-kꜣ-rꜤ 3",3,2999.66666666667,nicht spezifiziert,Neues Reich,-1465.5
+"London, British Museum, EA 10102",5,2999,Brief,Neues Reich,-1452
+"London, British Museum, EA 10474",2,2994,nicht spezifiziert,Dritte Zwischenzeit,-866.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.434",2,2991,Kemit,Neues Reich,-1182
+"D. Hatnub 26",16,2990.5,Biographischer Text,Erste Zwischenzeit,-2092.5
+"London, British Museum, EA 10221",409,2989.10268948655,Gerichtsurkunde/Zeugenaussage,Neues Reich,-1110.5
+"Kairo, Institut français d’archéologie orientale, OL 38",4,2983.5,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 7809 + P. 7810 Paris, Musée du Louvre, AF 11112",62,2982.3064516129,Götternamen und -Titel,Griechisch-römische Zeit,129.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10617",3,2975.33333333333,nicht spezifiziert,Neues Reich,-1434.5
+"London, British Museum, EA 10053",10,2974.7,Gerichtsurkunde/Zeugenaussage,Neues Reich,-1109.5
+"P. Abusir Berlin 7/F",1,2974,Administrativer Text,Altes Reich,-2394.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11301",19,2971.05263157895,Brief,Altes Reich,-2394.5
+"London, Petrie Museum of Egyptian Archaeology, UC 32190 + UC 32315",2,2963.5,Rechnung,Mittleres Reich,-1951.5
+"Kairo, Institut français d’archéologie orientale, OL 39",2,2961.5,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3135",117,2960.29914529915,Buch vom Atmen,Griechisch-römische Zeit,3.5
+"P. Abusir Berlin 7/D",5,2958.2,Administrativer Text,Altes Reich,-2394.5
+"P. Abusir Berlin 03",11,2955.45454545455,Administrativer Text,Altes Reich,-2465
+"Kairo, Institut français d’archéologie orientale, OL 27",14,2951.28571428571,Kemit,Neues Reich,-1182
+"London, British Museum, EA 10672",57,2951.17543859649,nicht spezifiziert,Griechisch-römische Zeit,31.5
+"D. Assiut N13.1 TN8",11,2943.45454545455,Kemit,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2572",22,2937.40909090909,Kemit,Neues Reich,-1182
+"P. Abusir Kairo Fragm. δ",1,2937,Administrativer Text,Altes Reich,-2394.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14156",2,2931.5,Administrativer Text,Neues Reich,-1148.5
+"D. Amasis, Jahr 5",14,2931.35714285714,Besuchertext,Spätzeit,-565.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3008",89,2928.7191011236,Totenbuch,Griechisch-römische Zeit,-143.5
+"Beit Khallaf K1.2",3,2926.66666666667,nicht spezifiziert,Altes Reich,-2667
+"Turin, Museo Egizio, CGT 54050",228,2924.74122807018,Magischer Text,Neues Reich,-1127.5
+"D. Hatnub 19",5,2924.6,nicht spezifiziert,Erste Zwischenzeit,-2092.5
+"Turin, Museo Egizio, CGT 57125",5,2924.6,nicht spezifiziert,Neues Reich,-1165.5
+"New York City, Academy of Medicine, 217",47,2922.44680851064,Medizinischer Text,Zweite Zwischenzeit,-1437.5
+"D. Assiut N13.1 TS33",1,2921,Königsname und Titel,Neues Reich,-1182
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, H 101",18,2917.22222222222,Kemit,Neues Reich,-1182
+"Paris, Bibliothèque Nationale de France, Egyptien 210",9,2915.77777777778,Haushaltsliste,Neues Reich,-1291.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11292",6,2913,Materialliste,Neues Reich,-1452
+"Kairo, Institut français d’archéologie orientale, OL 11",7,2912.71428571429,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 32",7,2912.14285714286,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3038",8,2911.375,Medizinischer Text,Neues Reich,-1240.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1044",2,2910.5,Kemit,Neues Reich,-1182
+"Berkeley (CA), University of California - Bancroft Library, P.Hearst 1282",154,2908,Totenbrief,Erste Zwischenzeit,-2092.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 15723",9,2905.66666666667,nicht spezifiziert,Altes Reich,-2263
+"D. Abusir 3",3,2905.33333333333,Besuchertext,Neues Reich,-1452
+"T. Bryce",6,2898.66666666667,Vertrag,Neues Reich,-1422.5
+"Leipzig, Ägyptisches Museum der Universität Leipzig – Georg Steindorff, 3956",31,2895.16129032258,Kemit,Neues Reich,-1182
+"P. Strasbourg Er",1,2889,nicht spezifiziert,Altes Reich,-2263
+"Kairo, Institut français d’archéologie orientale, OL 19",10,2888.3,Kemit,Neues Reich,-1182
+"London, British Museum, EA 10490",370,2882.40810810811,Totenbuch,Dritte Zwischenzeit,-1015
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.512B",15,2881,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, 32544",1,2877,Administrativer Text,Neues Reich,-1336.5
+"D. Hatnub 2",1,2876,Nichtköniglicher Historischer Text,Altes Reich,-2334
+"London, Petrie Museum of Egyptian Archaeology, 46298",1,2875,nicht spezifiziert,Neues Reich,-1340.5
+"Turin, Museo Egizio, CGT 57551",2,2875,Kemit,Neues Reich,-1182
+"Paris, Bibliothèque Nationale de France, Egyptien 204",37,2874.16216216216,Haushaltsliste,Neues Reich,-1292.5
+"Leiden, Rijksmuseum van Oudheden, H** 26",8,2871.5,Nicht spezifizierter Funerärer Text,Altes Reich,-2553.5
+"Kairo, Institut français d’archéologie orientale, OL 37",9,2871.11111111111,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 54052",42,2869.92857142857,Magischer Text,Neues Reich,-1240.5
+"D. Hatnub 15",2,2864,nicht spezifiziert,Erste Zwischenzeit,-2092.5
+"Paris, Bibliothèque Nationale de France, Egyptien 211",49,2861.61224489796,nicht spezifiziert,Neues Reich,-1291.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14213",8,2858.625,Administrativer Text,Neues Reich,-1293
+"London, British Museum, EA 50727",1,2857,Literarischer Text,Neues Reich,-1127.5
+"D. Assiut N13.1 TN6",6,2856.16666666667,Kemit,Neues Reich,-1422.5
+"Turin, Museo Egizio, CGT 57055",10,2854.7,Administrativer Text,Neues Reich,-1160.5
+"Chicago, Institute for the Study of Ancient Cultures Museum, E25332",33,2852.60606060606,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2577",13,2852,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TAN3",2,2848.5,nicht spezifiziert,Neues Reich,-1422.5
+"London, Petrie Museum of Egyptian Archaeology, 46292",1,2845,nicht spezifiziert,Neues Reich,-1340.5
+"Kairo, Institut français d’archéologie orientale, 2502",40,2842.5,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, S. 17507/5",75,2835.37333333333,nicht spezifiziert,Altes Reich,-2553.5
+"Kairo, Institut français d’archéologie orientale, OL 29",5,2835.2,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TS3",39,2832.94871794872,Hymnus im Götterkult,Neues Reich,-1422.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.955",9,2828,Kemit,Neues Reich,-1182
+"London, British Museum, EA 10057 + EA 10058",327,2827.61162079511,Mathematischer Text,Zweite Zwischenzeit,-1600
+"Kairo, Institut français d’archéologie orientale, 2604",16,2826.4375,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2591",12,2819.41666666667,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 31946",8,2814.625,Kemit,Neues Reich,-1182
+"Berlin, Pergamon Museum, VAT 233",8,2809.125,Administrativer Text,Neues Reich,-1344
+"Hieratischer Wiederbestattungsvermerk auf Leichenhülle der Prinzessin Zꜣt-Kꜣ-msjw",1,2807,nicht spezifiziert,Dritte Zwischenzeit,-1007
+"Turin, Museo Egizio, CGT 54051",290,2804.87586206897,Magischer Text,Neues Reich,-1127.5
+"London, Petrie Museum of Egyptian Archaeology, UC 32782",78,2798.35897435897,Brief,Neues Reich,-1347.5
+"D. Hatnub 21",1,2798,nicht spezifiziert,Erste Zwischenzeit,-2092.5
+"D. Assiut N13.1 TW28",1,2797,Hymnus im Götterkult,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2543",16,2794.5,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, SA 6154",15,2794.4,Administrativer Text,Neues Reich,-1096.5
+"Turin, Museo Egizio, CGT 57448",19,2792.52631578947,Kemit,Neues Reich,-1182
+"Hieratischer Wiederbestattungsvermerk auf Leichenband der Mumie des Prinzen Zꜣ-Jmn",1,2792,nicht spezifiziert,Dritte Zwischenzeit,-1007
+"Hieratischer Wiederbestattungsvermerk auf Leichenumwicklung der Mumie Ramses’ II.",1,2791,Nicht spezifizierter Königlicher Text,Dritte Zwischenzeit,-1007
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.401",9,2790.33333333333,Kemit,Neues Reich,-1182
+"Paris, Bibliothèque Nationale de France, Egyptien 208",6,2788.66666666667,Haushaltsliste,Neues Reich,-1292.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 15726",4,2786,nicht spezifiziert,Altes Reich,-2465
+"Kairo, Institut français d’archéologie orientale, OL 35",14,2784.07142857143,Kemit,Neues Reich,-1182
+"London, British Museum, EA 10252",1,2783,Verklärungen,Griechisch-römische Zeit,-313.5
+"Kairo, Institut français d’archéologie orientale, OL 31",26,2778.42307692308,Kemit,Neues Reich,-1182
+"Paris, Musée du Louvre, E 3226 A + E 3226 B",251,2773.19521912351,Administrativer Text,Neues Reich,-1428
+"London, British Museum, EA 5640",38,2770.42105263158,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2594",3,2769.66666666667,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9784",133,2767.72932330827,Juristische Urkunde,Neues Reich,-1357
+"P. Strasbourg Eq",1,2767,nicht spezifiziert,Altes Reich,-2263
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 8869",165,2766.2303030303,Brief,Altes Reich,-2263
+"München, Staatliche Sammlung Ägyptischer Kunst, ÄS 7123",48,2763.29166666667,Funerärer Ritualtext,Altes Reich,-2263
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10840",32,2758.5,Administrativer Text,Neues Reich,-1278
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11248",66,2757.78787878788,Administrativer Text,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3014 + P. 3053",7,2755.57142857143,Ritualtext im Götterkult,Dritte Zwischenzeit,-830
+"Leipzig, Ägyptisches Museum der Universität Leipzig – Georg Steindorff, 1926",7,2751.42857142857,Kemit,Neues Reich,-1182
+"P. Strasbourg Et",1,2748,nicht spezifiziert,Altes Reich,-2263
+"Turin, Museo Egizio, CGT 57545 + CGT 57546",17,2746.82352941176,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9874",6,2746.16666666667,Namenliste/Onomasticon,Altes Reich,-2433
+"New York City, Metropolitan Museum of Art, 13.182.33",14,2746.14285714286,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2608",17,2744.70588235294,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2506",24,2737.16666666667,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2542",51,2736.35294117647,Kemit,Neues Reich,-1246
+"D. Assiut N13.1 TS5",2,2733.5,Signatur,Neues Reich,-1422.5
+"London, British Museum, EA 10244",2,2733.5,Literarischer Text,Neues Reich,-1197
+"London, Petrie Museum of Egyptian Archaeology, 32229",1,2733,nicht spezifiziert,Neues Reich,-1334.5
+"Kairo, Institut français d’archéologie orientale, 217",14,2732.28571428571,Administrativer Text,Neues Reich,-1151.5
+"Paris, Musée du Louvre, AE/E 3230 a",20,2731.9,Brief,Neues Reich,-1422.5
+"Turin, Museo Egizio, CGT 57553",7,2730.42857142857,Kemit,Neues Reich,-1182
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.943",47,2728.68085106383,Kemit,Neues Reich,-1182
+"Paris, Musée du Louvre, AF 497",30,2725.7,Kemit,Zweite Zwischenzeit,-1437.5
+"Kairo, Institut français d’archéologie orientale, 2548",8,2724.5,Kemit,Neues Reich,-1182
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, H 137",34,2723.55882352941,Kemit,Neues Reich,-1182
+"Atlanta, Michael C. Carlos Museum, 2014.033.001",169,2722.84023668639,Totenbrief,Erste Zwischenzeit,-2107.5
+"Kairo, Institut français d’archéologie orientale, OL 26",27,2722.55555555556,Kemit,Neues Reich,-1182
+"D. Hatnub 43",2,2720.5,nicht spezifiziert,Erste Zwischenzeit,-2107.5
+"Beit Khallaf K1.1",6,2720.16666666667,nicht spezifiziert,Altes Reich,-2667
+"Kairo, Institut français d’archéologie orientale, 2597",13,2719.53846153846,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57189",17,2712.70588235294,Administrativer Text,Neues Reich,-1168.5
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 62",2,2712.5,nicht spezifiziert,Altes Reich,-2263
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.944",13,2709.69230769231,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9785",92,2708.92391304348,Juristische Urkunde,Neues Reich,-1348.5
+"London, Petrie Museum of Egyptian Archaeology, UC 31912",19,2708.63157894737,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2598",50,2702.68,Kemit,Neues Reich,-1182
+"Beit Khallaf K3.10",1,2701,nicht spezifiziert,Altes Reich,-2667
+"London, Petrie Museum of Egyptian Archaeology, UC 32213",2,2699,nicht spezifiziert,Mittleres Reich,-1879
+"London, Petrie Museum of Egyptian Archaeology, 32557",1,2689,nicht spezifiziert,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2584",8,2686.5,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TW4",1,2686,Besuchertext,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10663",15,2685.8,Administrativer Text,Neues Reich,-1156.5
+"Luxor, Luxor Museum of Egyptian Art, 1001",36,2684.88888888889,Kemit,Neues Reich,-1449
+"London, British Museum, EA 10762",1,2682,nicht spezifiziert,Mittleres Reich,-1852.5
+"Paris, Bibliothèque Nationale de France, Egyptien 183",832,2680.99639423077,Lehre,Mittleres Reich,-1879
+"Paris, Bibliothèque Nationale de France, Egyptien 205",52,2677.67307692308,Haushaltsliste,Neues Reich,-1292.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14302",18,2675.55555555556,Administrativer Text,Neues Reich,-1150.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 13242 Ro",106,2675.06603773585,Kultischer Text,Griechisch-römische Zeit,-8
+"Kairo, Institut français d’archéologie orientale, OL 47",5,2673,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9907",1,2671,nicht spezifiziert,Altes Reich,-2394.5
+"Turin, Museo Egizio, CGT 54003",1,2670,Magischer Text,Mittleres Reich,-1914
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14203",31,2669.64516129032,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2547",5,2667.6,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 31913",7,2665.57142857143,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14614",7,2662.57142857143,Administrativer Text,Neues Reich,-1182
+"D. Assiut N13.1 TS6",9,2660,Signatur,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, OL 50",7,2656.85714285714,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2600",26,2656.03846153846,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TS16",14,2652.92857142857,Besuchertext,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11240",33,2652,Kemit,Neues Reich,-1422.5
+"Leiden, Rijksmuseum van Oudheden, AAL 146 a",24,2650.20833333333,Nicht spezifizierter Funerärer Text,Altes Reich,-2553.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9010",131,2649.09160305343,Juristische Urkunde,Altes Reich,-2263
+"Kairo, Ägyptisches Museum, JE 95616",102,2645.87254901961,Kemit,Neues Reich,-1240.5
+"Kairo, Institut français d’archéologie orientale, OL 7",27,2641.77777777778,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57549",19,2639.47368421053,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 40",7,2635,Kemit,Neues Reich,-1182
+"Prag, Náprstek Museum, P 3824",67,2633.17910447761,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TBS4",5,2632,Opferformel ḥtp-ḏı͗-nsw.t,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 1",43,2629.16279069767,Administrativer Text,Neues Reich,-1291.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14657",22,2626.77272727273,Administrativer Text,Neues Reich,-1152.5
+"London, British Museum, EA 10060",1,2625,Erzählung,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2504",22,2624.5,Kemit,Neues Reich,-1182
+"Luxor, Luxor Museum of Egyptian Art, DAN hierat 5",60,2621.68333333333,Kemit,Zweite Zwischenzeit,-1437.5
+"Kairo, Institut français d’archéologie orientale, OL 12",5,2619.8,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2568",3,2616.33333333333,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57554",45,2613.68888888889,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57080",1,2612,Administrativer Text,Neues Reich,-1246
+"London, Petrie Museum of Egyptian Archaeology, 32170",4,2611.75,Rechnung,Mittleres Reich,-1802
+"Kairo, Institut français d’archéologie orientale, 2515",26,2610.69230769231,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, DeM 10339 recto",9,2609.11111111111,Administrativer Text,Neues Reich,-1089.5
+"Beit Khallaf K1.7",3,2605,nicht spezifiziert,Altes Reich,-2667
+"Beit Khallaf K3.15",3,2599,nicht spezifiziert,Altes Reich,-2667
+"London, Petrie Museum of Egyptian Archaeology, UC 31944",14,2598.64285714286,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 31911",30,2595.8,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 44",5,2592.6,Kemit,Neues Reich,-1182
+"Gizeh, Grand Egyptian Museum, 1523",181,2589.60773480663,Kemit,Neues Reich,-1422.5
+"Cambridge, Fitzwilliam Museum, E.76.1926",8,2589.25,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TN17",25,2585.2,Besuchertext,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 15292",25,2584.92,Namenliste/Onomasticon,Neues Reich,-1240.5
+"O. Amarna EA 329",47,2583.6170212766,Kemit,Neues Reich,-1422.5
+"O. Ramesseum 2008-APS-036",12,2582.91666666667,Kemit,Neues Reich,-1246
+"London, Petrie Museum of Egyptian Archaeology, UC 31910",25,2580.08,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 32189",2,2579,Rechnung,Mittleres Reich,-1879
+"O. DEM_2019_M25_073",4,2579,Kemit,Neues Reich,-1182
+"Florenz, Museo Egizio, 7138",7,2578.71428571429,Kemit,Neues Reich,-1309.5
+"Kairo, Institut français d’archéologie orientale, 98",13,2578.69230769231,Namenliste/Onomasticon,Neues Reich,-1190
+"Berlin, Ägyptisches Museum und Papyrussammlung, ÄM 14000",1,2578,nicht spezifiziert,Neues Reich,-1344
+"Turin, Museo Egizio, CGT 57308",9,2577.88888888889,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 31909",26,2574.23076923077,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 13",7,2574.14285714286,Kemit,Neues Reich,-1182
+"New York City, Metropolitan Museum of Art, 22.3.517",1281,2568.51600312256,Brief,Mittleres Reich,-1933.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14286",37,2568.40540540541,Administrativer Text,Neues Reich,-1150
+"Turin, Museo Egizio, S. 17507/1",119,2568.3025210084,Rechnung,Altes Reich,-2553.5
+"Kairo, Institut français d’archéologie orientale, 2567",38,2566.57894736842,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, SA 6351",13,2560.46153846154,Administrativer Text,Neues Reich,-1165.5
+"Kairo, Institut français d’archéologie orientale, 2512",41,2560.0487804878,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2508",22,2556.86363636364,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 5",12,2556.66666666667,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2581",9,2552.33333333333,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57072",55,2552,Materialliste,Neues Reich,-1155.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.572",11,2550.90909090909,Kemit,Neues Reich,-1182
+"P. Abusir Kairo Fragm. n",1,2550,Administrativer Text,Altes Reich,-2394.5
+"D. Assiut N13.1 TS9",1,2549,Fürbitte,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12632 Kairo, Institut français d’archéologie orientale, 226",16,2546.0625,Administrativer Text,Neues Reich,-1158.5
+"New York City, Pierpont Morgan Library, Amh. Egy. Pap. 9 Paris, Bibliothèque Nationale de France, Egyptien 202",16,2545.625,Erzählung,Neues Reich,-1413.5
+"Kairo, Ägyptisches Museum, CG 58043",7,2543,Brief,Altes Reich,-2304
+"Kairo, Institut français d’archéologie orientale, SA 2533 + SA 341 + SA 4295 (?) + SA 6226",39,2540.61538461538,Administrativer Text,Neues Reich,-1152.5
+"Paris, Musée du Louvre, N 815",19,2537.68421052632,Administrativer Text,Spätzeit,-588.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10839",17,2537.17647058824,Administrativer Text,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, 207",55,2534.50909090909,Administrativer Text,Neues Reich,-1159.5
+"Kairo, Institut français d’archéologie orientale, OL 28",12,2534,Kemit,Neues Reich,-1182
+"Leiden, Rijksmuseum van Oudheden, AAL 146bis a",28,2532.89285714286,Nicht spezifizierter Funerärer Text,Altes Reich,-2553.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10615",60,2532.1,Administrativer Text,Neues Reich,-1436.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10500 A–B",10,2529.8,Administrativer Text,Altes Reich,-2263
+"Kairo, Institut français d’archéologie orientale, OL 24",9,2528.77777777778,Kemit,Neues Reich,-1182
+"London, British Museum, EA 5641",30,2528.7,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57035",16,2525,Administrativer Text,Neues Reich,-1168.5
+"D. Assiut N13.1 TAS6",24,2521.95833333333,Kolophon,Neues Reich,-1422.5
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, H. hier. 5",28,2520.67857142857,Administrativer Text,Neues Reich,-1152
+"Kairo, Institut français d’archéologie orientale, 652",7,2517.85714285714,Administrativer Text,Neues Reich,-1160.5
+"D. Assiut N13.1 TN31",12,2517.58333333333,Besuchertext,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2514",14,2516.21428571429,Kemit,Neues Reich,-1182
+"D. Hatnub 7",2,2516,nicht spezifiziert,Altes Reich,-2231
+"Kairo, Ägyptisches Museum, JE 602",1,2511,nicht spezifiziert,Altes Reich,-2394.5
+"Kairo, Institut français d’archéologie orientale, OL 30",4,2509.5,Kemit,Neues Reich,-1182
+"Kairo, Ägyptisches Museum, JE 54949",78,2507.51282051282,Kemit,Neues Reich,-1182
+"Berkeley (CA), University of California - Bancroft Library, P.Hearst.0001",4,2507.5,Medizinischer Text,Mittleres Reich,-1802.5
+"New York City, Metropolitan Museum of Art, 13.182.32",11,2506.81818181818,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57282",13,2503.23076923077,Administrativer Text,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, 2513",42,2502.19047619048,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11262",36,2502.16666666667,Kemit,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2563",7,2502,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 16",2,2502,Kemit,Neues Reich,-1182
+"SAK 2008 428-1",2,2501.5,nicht spezifiziert,Frühdynastische Zeit,-2788
+"Kairo, Institut français d’archéologie orientale, 2585",9,2500.22222222222,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 3029 [b]",17,2497.88235294118,Gerichtsurkunde/Zeugenaussage,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, OL 22",11,2491.09090909091,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 12",44,2490.72727272727,Administrativer Text,Neues Reich,-1291.5
+"D. Assiut N13.1 TN29",5,2489.2,Signatur,Neues Reich,-1422.5
+"New York City, Metropolitan Museum of Art, 22.3.518",364,2488.77472527473,Brief,Mittleres Reich,-1933.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1020",17,2488.52941176471,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2579",18,2486.44444444444,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2505",23,2485.60869565217,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, Amarna 71 (Petrie)",1,2485,nicht spezifiziert,Neues Reich,-1422.5
+"O. DEM_2019_M25_197",48,2481.85416666667,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12384",26,2479.38461538462,Administrativer Text,Neues Reich,-1151.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.570",16,2478.5,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2544",17,2477,Kemit,Neues Reich,-1182
+"Paris, Bibliothèque Nationale de France, Egyptien 203",8,2473.375,Rechnung,Neues Reich,-1286.5
+"Kairo, Institut français d’archéologie orientale, SA 2214",11,2470.27272727273,Administrativer Text,Neues Reich,-1238.5
+"Kairo, Institut français d’archéologie orientale, 895",25,2466.4,Administrativer Text,Neues Reich,-1148.5
+"D. Assiut N13.1 TS2",1,2463,Lehre,Neues Reich,-1422.5
+"New York City, Metropolitan Museum of Art, 22.3.516",1432,2462.5656424581,Brief,Mittleres Reich,-1933.5
+"O. Deir el-Bahri T3.L12",6,2461.66666666667,Kemit,Neues Reich,-1309.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1072",23,2461.39130434783,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, SA 8564",19,2460.15789473684,Administrativer Text,Neues Reich,-1191
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1076",17,2458.41176470588,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 18",8,2454.875,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57257",8,2453.125,Administrativer Text,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, SA 115",20,2450.1,Namenliste/Onomasticon,Neues Reich,-1196.5
+"O. Ramesseum 2005-STO-003",15,2447.6,Kemit,Neues Reich,-1246
+"Paris, Bibliothèque Nationale de France, Egyptien 206",56,2447.46428571429,Haushaltsliste,Neues Reich,-1292.5
+"O. Amheida 11050",44,2446.88636363636,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12346",3,2446.33333333333,nicht spezifiziert,Altes Reich,-2433
+"D. Assiut N13.1 TBS3",8,2444.25,Opferformel ḥtp-ḏı͗-nsw.t,Neues Reich,-1422.5
+"D. Assiut N13.1 TAN1",5,2434.4,nicht spezifiziert,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, DeM 591",29,2433.20689655172,Administrativer Text,Neues Reich,-1190
+"Turin, Museo Egizio, CGT 57256",7,2431.42857142857,Administrativer Text,Neues Reich,-1127.5
+"Kairo, Institut français d’archéologie orientale, 1955",10,2429.4,Administrativer Text,Neues Reich,-1235.5
+"München, Staatliche Sammlung Ägyptischer Kunst, ÄS 3402",21,2429.04761904762,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 23",3,2429,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TW34",5,2428.8,nicht spezifiziert,Neues Reich,-1309.5
+"D. Assiut N13.1 TN22",7,2428.28571428571,Lehre,Neues Reich,-1422.5
+"London, British Museum, EA 10735",576,2427.89236111111,Rechnung,Altes Reich,-2314.5
+"D. Assiut N13.1 TW23",4,2427,Fürbitte,Neues Reich,-1182
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1075",28,2426.85714285714,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10638",30,2418.26666666667,Kemit,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14238",26,2414.92307692308,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 3",28,2413.57142857143,Administrativer Text,Neues Reich,-1291.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14149",14,2406.57142857143,Administrativer Text,Neues Reich,-1157.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9901",5,2404,Namenliste/Onomasticon,Neues Reich,-1127.5
+"Kairo, Ägyptisches Museum, TR 25/3/52/1_(8)",127,2401.44094488189,Kemit,Zweite Zwischenzeit,-1600
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12625",30,2400.73333333333,Administrativer Text,Neues Reich,-1153.5
+"D. Assiut N13.1 TS10",14,2397.35714285714,Kemit,Neues Reich,-1422.5
+"Turin, Museo Egizio, CGT 57006",84,2393.05952380952,Administrativer Text,Neues Reich,-1151.5
+"Turin, Museo Egizio, S. 17507/2",93,2391.55913978495,nicht spezifiziert,Altes Reich,-2553.5
+"D. Assiut N13.1 TS39",57,2389.36842105263,Historischer Vermerk,Neues Reich,-1156
+"Kairo, Institut français d’archéologie orientale, OL 1",45,2384.2,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2620",16,2383.375,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12366",56,2383.21428571429,Kemit,Neues Reich,-1240.5
+"Kairo, Institut français d’archéologie orientale, 2609",8,2383,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57085",7,2382.85714285714,Administrativer Text,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, SA 3231",17,2377.94117647059,Administrativer Text,Neues Reich,-1163.5
+"London, Petrie Museum of Egyptian Archaeology, UC 32055",1,2377,nicht spezifiziert,Mittleres Reich,-1852.5
+"Kairo, Ägyptisches Museum, JE 56842 A/B",136,2373.43382352941,Kemit,Neues Reich,-1246
+"O. DEM_2019_M25_125",6,2373.33333333333,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57056",2,2370,Haushaltsliste,Neues Reich,-1160.5
+"Turin, Museo Egizio, CGT 57007",20,2368.7,nicht spezifiziert,Neues Reich,-1156
+"Cambridge, Fitzwilliam Museum, E.GA.4758.1943",55,2364.90909090909,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2565",32,2364.09375,Kemit,Neues Reich,-1182
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.422",12,2363.16666666667,Kemit,Neues Reich,-1182
+"Kairo, Ägyptisches Museum, TR 25/3/52/1_(15+19)",146,2361.21917808219,Kemit,Zweite Zwischenzeit,-1600
+"Kairo, Institut français d’archéologie orientale, 203",35,2359.97142857143,Administrativer Text,Neues Reich,-1158.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9897",40,2359.725,Administrativer Text,Neues Reich,-1148.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12627",37,2359.51351351351,Administrativer Text,Neues Reich,-1157.5
+"Kairo, Institut français d’archéologie orientale, OL 45",4,2359.5,Kemit,Neues Reich,-1182
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.592",10,2357.4,Kemit,Neues Reich,-1182
+"O. Amarna EA 330",26,2356.73076923077,Kemit,Neues Reich,-1422.5
+"D. Assiut N13.1 TW35",25,2354.8,Fürbitte,Neues Reich,-1182
+"D. Assiut N13.1 TS20",17,2351.70588235294,Besuchertext,Neues Reich,-1422.5
+"London, Petrie Museum of Egyptian Archaeology, 32157 vo",4,2348.25,Erzählung,Mittleres Reich,-1802
+"Kairo, Institut français d’archéologie orientale, 893",15,2348.2,Administrativer Text,Neues Reich,-1151.5
+"Kairo, Institut français d’archéologie orientale, 4",23,2346.69565217391,Administrativer Text,Neues Reich,-1291.5
+"D. Assiut N13.1 TN23",5,2345.4,Besuchertext,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2606-I",28,2342.39285714286,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10632",95,2341.29473684211,Administrativer Text,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, 93",23,2337.82608695652,Administrativer Text,Neues Reich,-1206
+"Kairo, Ägyptisches Museum, CG 25726 London, British Museum, EA 50722",58,2335.53448275862,Administrativer Text,Neues Reich,-1152.5
+"Kairo, Institut français d’archéologie orientale, O. DeM 595",13,2335.15384615385,Administrativer Text,Neues Reich,-1197
+"Kairo, Institut français d’archéologie orientale, OL 6",12,2334.75,Kemit,Neues Reich,-1182
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, H. hier. 82",46,2327.21739130435,Administrativer Text,Neues Reich,-1152.5
+"D. Assiut N13.1 TN42",35,2326.65714285714,Besuchertext,Neues Reich,-1360.5
+"Brüssel, Musées Royaux d’Art et d’Histoire, E 3208 Kairo, Institut français d’archéologie orientale, 2509 + 2510",550,2326.31272727273,Kemit,Neues Reich,-1168.5
+"D. Assiut N13.1 TS4",16,2321.4375,nicht spezifiziert,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 1122",27,2318.59259259259,Administrativer Text,Neues Reich,-1182
+"London, British Museum, EA 5635",182,2318.35164835165,Administrativer Text,Neues Reich,-1194
+"Kairo, Institut français d’archéologie orientale, 202 Straßburg, Bibliothèque nationale et universitaire de Strasbourg, H. hier. 42",52,2315.13461538462,Administrativer Text,Neues Reich,-1152.5
+"Kairo, Institut français d’archéologie orientale, 2507",36,2314.86111111111,Kemit,Neues Reich,-1182
+"O. DEM_2019_M25_140",18,2313.05555555556,Kemit,Neues Reich,-1182
+"Heidelberg, Sammlung des Ägyptologischen Instituts der Universität Heidelberg, 214",18,2306.16666666667,Kemit,Neues Reich,-1182
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1016",12,2304.66666666667,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 215",16,2298.625,Administrativer Text,Neues Reich,-1152
+"Turin, Museo Egizio, CGT 57204",7,2297.85714285714,Administrativer Text,Neues Reich,-1157.5
+"O. DEM_2019_M25_167",20,2296.4,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TN2",83,2295.71084337349,Kolophon,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14255",45,2295.37777777778,Administrativer Text,Neues Reich,-1216
+"D. Assiut N13.1 TN37",108,2295.07407407407,Besuchertext,Neues Reich,-1422.5
+"Leiden, Rijksmuseum van Oudheden, H** 25",5,2293.8,Nicht spezifizierter Funerärer Text,Altes Reich,-2553.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12629",47,2292.8085106383,nicht spezifiziert,Neues Reich,-1158.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14210",19,2291.42105263158,Administrativer Text,Neues Reich,-1127.5
+"D. Assiut N13.1 TS47",5,2291.4,Namensvermerk,Neues Reich,-1182
+"O. DeM 612",51,2289.3137254902,Namenliste/Onomasticon,Neues Reich,-1190
+"Kairo, Institut français d’archéologie orientale, O. DeM 571",90,2287.02222222222,Administrativer Text,Neues Reich,-1117.5
+"Kairo, Institut français d’archéologie orientale, 2518",9,2286.44444444444,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TW33",3,2286.33333333333,Fürbitte,Neues Reich,-1182
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.614",12,2286.08333333333,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, DeM 565",31,2281.74193548387,Namenliste/Onomasticon,Neues Reich,-1168.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 9906",43,2281.67441860465,Administrativer Text,Neues Reich,-1178.5
+"D. Hatnub 9",1,2281,nicht spezifiziert,Erste Zwischenzeit,-2092.5
+"London, British Museum, EA 29548",24,2277.45833333333,Kemit,Neues Reich,-1240.5
+"D. Assiut N13.1 TN12",11,2276.54545454545,Namensvermerk,Neues Reich,-1395
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14233",13,2274.61538461538,Administrativer Text,Neues Reich,-1240.5
+"Cambridge, Fitzwilliam Museum, E.GA.4761.1943",5,2273.6,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 17",37,2273.13513513513,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TS22",12,2269.66666666667,Opferformel ḥtp-ḏı͗-nsw.t,Neues Reich,-1422.5
+"Turin, Museo Egizio, CGT 57479",19,2269.63157894737,Administrativer Text,Neues Reich,-1111
+"D. Assiut N13.1 TS18",27,2269.07407407407,Lehre,Neues Reich,-1422.5
+"O. DEM_2018_M25_176 + 2019_M25_096",69,2268.23188405797,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 17",25,2265.88,Administrativer Text,Neues Reich,-1291.5
+"D. Assiut N13.1 TBS1",77,2265.37662337662,Hymnus im Götterkult,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, OL 43",6,2265,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57153",16,2264.5625,Administrativer Text,Neues Reich,-1158.5
+"D. Assiut N13.1 TS31",2,2263,Signatur,Neues Reich,-1422.5
+"D. Assiut N13.1 TN39",21,2259.09523809524,Besuchertext,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12626 Kairo, Institut français d’archéologie orientale, 211",114,2255.19298245614,Administrativer Text,Neues Reich,-1152.5
+"O. DEM_2020_M25_634",37,2253.16216216216,Kemit,Neues Reich,-1182
+"Beit Khallaf K2.8",5,2250.6,nicht spezifiziert,Altes Reich,-2667
+"Kairo, Institut français d’archéologie orientale, 2517",4,2250.25,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2561",51,2247.92156862745,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TN38",33,2247.78787878788,Historischer Vermerk,Neues Reich,-1371
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11272",56,2247.55357142857,Administrativer Text,Neues Reich,-1168.5
+"D. Assiut N13.1 TS30",3,2244.33333333333,Namensvermerk,Neues Reich,-1309.5
+"Kairo, Institut français d’archéologie orientale, SA 8385",33,2243.81818181818,Administrativer Text,Neues Reich,-1193
+"Kairo, Institut français d’archéologie orientale, 8",40,2242.625,Administrativer Text,Neues Reich,-1291.5
+"D. Assiut N13.1 TS24",4,2241.5,Kolophon,Neues Reich,-1422.5
+"D. Assiut N13.1 TN18",116,2232.44827586207,Besuchertext,Neues Reich,-1388.5
+"D. Assiut N13.1 TN35",4,2231.75,Besuchertext,Neues Reich,-1422.5
+"D. Assiut N13.1 TN33",258,2230.71705426357,Besuchertext,Neues Reich,-1422.5
+"D. Assiut N13.1 TBN2",106,2227.51886792453,Lehre,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 419",28,2227.46428571429,Administrativer Text,Neues Reich,-1248.5
+"D. Assiut N13.1 TS35",147,2226.8231292517,Anruf,Neues Reich,-1422.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.1077",9,2226.33333333333,Kemit,Neues Reich,-1182
+"London, British Museum, EA 66412",41,2226.31707317073,Administrativer Text,Neues Reich,-1141
+"D. Assiut N13.1 TW25",2,2222.5,Fürbitte,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 94",123,2219.48780487805,Administrativer Text,Neues Reich,-1150
+"London, British Museum, EA 50730 + EA 50745",43,2219.37209302326,Administrativer Text,Neues Reich,-1142.5
+"D. Assiut N13.1 TN43",131,2218.32824427481,Historischer Vermerk,Neues Reich,-1371
+"D. Assiut N13.1 TW14",20,2217.15,Fürbitte,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2537",5,2216.8,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57030",55,2216.49090909091,Haushaltsliste,Neues Reich,-1168.5
+"Turin, Museo Egizio, CGT 57028",106,2215.19811320755,Haushaltsliste,Neues Reich,-1160.5
+"Turin, Museo Egizio, CGT 57026",31,2214.48387096774,Haushaltsliste,Neues Reich,-1161.5
+"D. Assiut N13.1 TAS4",144,2212.01388888889,Besuchertext,Neues Reich,-1422.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.927",8,2208.5,Kemit,Neues Reich,-1182
+"Straßburg, Bibliothèque nationale et universitaire de Strasbourg, 55",3,2206,Brief,Altes Reich,-2263
+"D. Assiut N13.1 TAN2",7,2205.42857142857,Besuchertext,Neues Reich,-1422.5
+"D. Assiut N13.1 TS11",17,2203.76470588235,Fürbitte,Neues Reich,-1127.5
+"Kairo, Ägyptisches Museum, CG 25649 London, British Museum, EA 5672",108,2203.72222222222,Administrativer Text,Neues Reich,-1112.5
+"D. Assiut N13.1 TN26",5,2202.8,Besuchertext,Neues Reich,-1422.5
+"SAK 2008 448",3,2201.66666666667,nicht spezifiziert,Frühdynastische Zeit,-2788
+"D. Assiut N13.1 TS17",11,2200.27272727273,Besuchertext,Neues Reich,-1422.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10006",1,2200,nicht spezifiziert,Mittleres Reich,-1879
+"D. Assiut N13.1 TS48",6,2197.5,Namensvermerk,Neues Reich,-1182
+"D. Assiut N13.1 TS45",51,2197.11764705882,Fürbitte,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, OL 46 + 49",17,2195.23529411765,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2586",6,2193,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 15",8,2189.25,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57283",20,2187.5,Namenliste/Onomasticon,Neues Reich,-1160.5
+"Kairo, Institut français d’archéologie orientale, 19",31,2186.8064516129,Administrativer Text,Neues Reich,-1291.5
+"Kairo, Institut français d’archéologie orientale, 1606",74,2183.67567567568,Namenliste/Onomasticon,Neues Reich,-1228.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.393",8,2183.625,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 9",11,2182.63636363636,Kemit,Neues Reich,-1182
+"O. DEM_2020_M25_524",145,2180.16551724138,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 405",31,2180.06451612903,Administrativer Text,Neues Reich,-1212.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 11249",22,2169.90909090909,Administrativer Text,Neues Reich,-1127.5
+"Kairo, Institut français d’archéologie orientale, 707",30,2163.56666666667,Administrativer Text,Neues Reich,-1142.5
+"Kairo, Institut français d’archéologie orientale, 2587",8,2161.75,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 404",66,2161.72727272727,Administrativer Text,Neues Reich,-1291.5
+"Kairo, Institut français d’archéologie orientale, 78",28,2152.25,Administrativer Text,Neues Reich,-1168.5
+"Beit Khallaf K1.4",2,2148.5,nicht spezifiziert,Altes Reich,-2667
+"D. Assiut N13.1 TS34",101,2147.0297029703,Besuchertext,Neues Reich,-1422.5
+"D. Assiut N13.1 TN9",107,2146.20560747664,Kolophon,Neues Reich,-1371
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10011",1,2146,nicht spezifiziert,Mittleres Reich,-1879
+"D. Assiut N13.1 TN24",5,2145.6,Lehre,Neues Reich,-1422.5
+"D. Assiut N13.1 TN13",61,2145.3606557377,Besuchertext,Zweite Zwischenzeit,-1542
+"D. Assiut N13.1 TN36",25,2142.68,Historischer Vermerk,Neues Reich,-1389.5
+"Kairo, Institut français d’archéologie orientale, SA 13108",37,2141.81081081081,Haushaltsliste,Neues Reich,-1193
+"D. Assiut N13.1 TN41",30,2139.66666666667,Besuchertext,Neues Reich,-1389.5
+"Turin, Museo Egizio, CGT 57025",1,2139,Administrativer Text,Neues Reich,-1158.5
+"Paris, Musée du Louvre, AE/E 3230 b",48,2136.41666666667,Brief,Neues Reich,-1422.5
+"Beit Khallaf K1.3",5,2136.4,nicht spezifiziert,Altes Reich,-2657.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12653",35,2131.85714285714,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2607",35,2129.28571428571,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TAN4",10,2125.3,Lehre,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, SA 12753",35,2124.4,Logbuch,Neues Reich,-1155.5
+"D. Assiut N13.1 TS27",123,2124.11382113821,Besuchertext,Neues Reich,-1422.5
+"Kairo, Ägyptisches Museum, CG 58035",1,2124,nicht spezifiziert,Dritte Zwischenzeit,-892
+"Kairo, Institut français d’archéologie orientale, OL 48",6,2123.33333333333,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 2583",8,2119,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 41",19,2116.21052631579,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TN40",92,2113.76086956522,Besuchertext,Neues Reich,-1422.5
+"Chicago, Institute for the Study of Ancient Cultures Museum, E16992",18,2112.55555555556,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, SA 2646",11,2112.18181818182,Administrativer Text,Neues Reich,-1223.5
+"D. Assiut N13.1 TS36",75,2110.29333333333,Historischer Vermerk,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, DeM 578",14,2104.78571428571,Logbuch,Neues Reich,-1153.5
+"D. Assiut N13.1 TN3",45,2097.44444444444,Prophezeiung,Neues Reich,-1422.5
+"D. Assiut N13.1 TS19",12,2097.08333333333,Opferformel ḥtp-ḏı͗-nsw.t,Neues Reich,-1422.5
+"D. Assiut N13.1 TAS3",22,2096.09090909091,Brief,Neues Reich,-1422.5
+"Oxford, Ashmolean Museum, ANAsh.Mus.H.O.600",3,2096,Kemit,Neues Reich,-1182
+"Beit Khallaf K5.16",6,2095,nicht spezifiziert,Altes Reich,-2667
+"Kairo, Institut français d’archéologie orientale, 117",109,2094.30275229358,Zahlungsliste,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, 829",3,2092.66666666667,nicht spezifiziert,Neues Reich,-1127.5
+"D. Assiut N13.1 TN27",8,2082.875,Besuchertext,Neues Reich,-1422.5
+"O. SMDAN",6,2082.16666666667,Kemit,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 1024",40,2079.5,Administrativer Text,Neues Reich,-1246
+"D. Assiut N13.1 TW30",2,2077,Kolophon,Neues Reich,-1422.5
+"D. Assiut N13.1 TN1",92,2076.41304347826,Lehre,Neues Reich,-1422.5
+"O. DEM_2019_M25_122",5,2076,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 1884",19,2075.15789473684,Rechnung,Neues Reich,-1148
+"Kairo, Institut français d’archéologie orientale, 66",62,2070.6935483871,Administrativer Text,Neues Reich,-1158.5
+"D. Assiut N13.1 TO1",31,2062.38709677419,nicht spezifiziert,Neues Reich,-1098.5
+"Beit Khallaf K3.14",1,2062,nicht spezifiziert,Altes Reich,-2667
+"D. Assiut N13.1 TW20",4,2060.25,Besuchertext,Neues Reich,-1422.5
+"D. Assiut N13.1 TS23",4,2060,Signatur,Neues Reich,-1422.5
+"D. Assiut N13.1 TN28",33,2056.0303030303,Kolophon,Neues Reich,-1422.5
+"D. Assiut N13.1 TAS1",57,2051.22807017544,Lehre,Neues Reich,-1429
+"Kairo, Institut français d’archéologie orientale, SA 2491 Ro",79,2043.74683544304,Zahlungsliste,Neues Reich,-1216
+"D. Dahshur 03.467",12,2041.08333333333,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TN11",16,2040.0625,Signatur,Neues Reich,-1371
+"Kairo, Institut français d’archéologie orientale, 416",27,2039.96296296296,Administrativer Text,Neues Reich,-1240.5
+"Turin, Museo Egizio, CGT 57307",19,2038.57894736842,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57206",6,2036,Administrativer Text,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, OL 36",10,2032,Kemit,Neues Reich,-1182
+"London, Petrie Museum of Egyptian Archaeology, UC 31945",5,2031.4,Kemit,Neues Reich,-1182
+"Turin, Museo Egizio, CGT 57429",8,2024.875,Administrativer Text,Neues Reich,-1246
+"London, British Museum, EA 50728",116,2022.91379310345,Administrativer Text,Neues Reich,-1285
+"Turin, Museo Egizio, CGT 57469",23,2022.04347826087,Administrativer Text,Neues Reich,-1291.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14218",12,2015.75,Administrativer Text,Neues Reich,-1240.5
+"D. Assiut N13.1 TS1",55,2014.78181818182,Brief,Neues Reich,-1422.5
+"D. Assiut N13.1 TS26",49,2014.44897959184,Kolophon,Neues Reich,-1422.5
+"D. Assiut N13.1 TS7",30,2013.2,Fürbitte,Neues Reich,-1127.5
+"D. Assiut N13.1 TAW1",219,2009.61643835616,Prophezeiung,Neues Reich,-1429
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 12651 Kairo, Institut français d’archéologie orientale, 210 Wien, Papyrusmuseum, Österreichische Nationalbibliothek, Hier. 4",59,2006.96610169492,Administrativer Text,Neues Reich,-1149.5
+"D. Assiut N13.1 TBW1",17,2006.58823529412,Lehre,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 96",20,2003.5,Administrativer Text,Neues Reich,-1127.5
+"D. Ptahemwia 14",16,2000.5625,Kemit,Neues Reich,-1339.5
+"Turin, Museo Egizio, CGT 57039",29,1997.13793103448,Namenliste/Onomasticon,Neues Reich,-1160.5
+"Hieratischer Wiederbestattungsvermerk auf äußerer Hülle der Mumie Thutmosis’ II.",1,1991,nicht spezifiziert,Dritte Zwischenzeit,-1007
+"Kairo, Institut français d’archéologie orientale, 2599",5,1989.6,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TS42",191,1985.91623036649,Lehre,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2570",41,1981.85365853659,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10010",1,1979,nicht spezifiziert,Mittleres Reich,-1850.5
+"Kairo, Institut français d’archéologie orientale, SA 363 / 5",11,1974.45454545455,Administrativer Text,Neues Reich,-1160.5
+"D. Assiut N13.1 TS25",73,1971.68493150685,Lehre,Neues Reich,-1422.5
+"Turin, Museo Egizio, CGT 57036",32,1963.21875,Administrativer Text,Neues Reich,-1160.5
+"Turin, Museo Egizio, CGT 57156",17,1957.47058823529,Administrativer Text,Neues Reich,-1168.5
+"Kairo, Institut français d’archéologie orientale, 222",69,1942.82608695652,Administrativer Text,Neues Reich,-1155.5
+"Kairo, Institut français d’archéologie orientale, 402",30,1938.86666666667,Administrativer Text,Neues Reich,-1153.5
+"Kairo, Institut français d’archéologie orientale, SA 357",6,1927,Administrativer Text,Neues Reich,-1154.5
+"D. Assiut N13.1 TN14a–e",12,1926.16666666667,Götternamen und -Titel,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2593",17,1921.58823529412,Kemit,Neues Reich,-1182
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 10633",73,1908.35616438356,Administrativer Text,Neues Reich,-1155.5
+"D. Assiut N13.1 TBS2",4,1907,Signatur,Neues Reich,-1422.5
+"O. DEM_2018_M25_038",6,1894.83333333333,Kemit,Neues Reich,-1182
+"D. Assiut N13.1 TN20",9,1887,Lehre,Neues Reich,-1422.5
+"London, Petrie Museum of Egyptian Archaeology, 32161",1,1872,Mathematischer Text,Mittleres Reich,-1802
+"Turin, Museo Egizio, CGT 57432",37,1872,Administrativer Text,Neues Reich,-1168.5
+"London, Petrie Museum of Egyptian Archaeology, 46284",1,1868,nicht spezifiziert,Neues Reich,-1344.5
+"Berlin, Ägyptisches Museum und Papyrussammlung, P. 14666",11,1864.90909090909,Administrativer Text,Neues Reich,-1153.5
+"D. Assiut N13.1 TS44a–b",11,1845.81818181818,nicht spezifiziert,Neues Reich,-1182
+"D. Assiut N13.1 TW24",10,1833.7,Historischer Vermerk,Neues Reich,-1308.5
+"Kairo, Institut français d’archéologie orientale, 209",104,1822.83653846154,Administrativer Text,Neues Reich,-1154.5
+"D. Assiut N13.1 TW17",2,1803.5,Besuchertext,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2601",4,1799,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 107",17,1792.88235294118,Administrativer Text,Neues Reich,-1150
+"D. Assiut N13.1 TN5",20,1769.5,Besuchertext,Neues Reich,-1422.5
+"D. Assiut N13.1 TN7",1,1728,Kolophon,Neues Reich,-1422.5
+"D. Assiut N13.1 TN32",8,1715,Historischer Vermerk,Neues Reich,-1388.5
+"London, Petrie Museum of Egyptian Archaeology, 32215",2,1698,Brief,Mittleres Reich,-1802
+"D. Assiut N13.1 TBN1",5,1620.4,Lehre,Neues Reich,-1422.5
+"Kairo, Institut français d’archéologie orientale, 2287",1,1601,Kemit,Neues Reich,-1182
+"Kairo, Institut français d’archéologie orientale, 214",13,1590.23076923077,Administrativer Text,Neues Reich,-1152.5
+"Beit Khallaf K3.9",1,1585,nicht spezifiziert,Altes Reich,-2667
+"New York City, Metropolitan Museum of Art, MMA 27.3.560",2,1420,Brief,Neues Reich,-1465.5

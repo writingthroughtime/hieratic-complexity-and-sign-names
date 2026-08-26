@@ -86,3 +86,7 @@ function keepMdc = local_mdc_with_min_count_per_epoch(tbl, epochs, minCount)
     end
     keepMdc = signNames(all(nPerEpoch >= minCount, 2));
 end
+
+%% Run the next in sequence
+
+genre_paper_02_genre_effect_nk;
